@@ -1,0 +1,97 @@
+name: stacer
+adopt-info: stacer
+title: Stacer
+base: core24
+summary: Linux System Optimizer and Monitoring
+description: |
+  Stacer is an open source system optimizer and application monitor that helps users to manage entire system with different aspects, its an all in one system utility.
+license: GPL-3.0
+icon: icons/hicolor/scalable/apps/stacer.svg
+
+website: https://stacer.quentium.fr
+contact: pro@quentium.fr
+source-code: https://github.com/QuentiumYT/Stacer
+issues: https://github.com/QuentiumYT/Stacer/issues
+donation: https://www.paypal.me/QuentiumYT
+
+grade: stable
+confinement: strict
+
+platforms:
+  amd64:
+    build-on: [amd64]
+    build-for: [amd64]
+  arm64:
+    build-on: [arm64]
+    build-for: [arm64]
+  armhf:
+    build-on: [armhf]
+    build-for: [armhf]
+  ppc64el:
+    build-on: [ppc64el]
+    build-for: [ppc64el]
+  riscv64:
+    build-on: [riscv64]
+    build-for: [riscv64]
+  s390x:
+    build-on: [s390x]
+    build-for: [s390x]
+
+apps:
+  stacer:
+    command: usr/bin/stacer
+    plugs:
+      - network
+      - network-observe
+      - hardware-observe
+      - process-control
+      - system-observe
+      - removable-media
+      - home
+      - x11
+      - wayland
+      - desktop
+      - desktop-legacy
+      - opengl
+
+parts:
+  stacer:
+    plugin: cmake
+    source: .
+    cmake-parameters:
+      - -DCMAKE_BUILD_TYPE=Release
+      - -DCMAKE_INSTALL_PREFIX=/usr
+    build-packages:
+      - git
+      - build-essential
+      - cmake
+      - pkg-config
+      - qt6-base-dev
+      - qt6-tools-dev
+      - qt6-tools-dev-tools
+      - qt6-l10n-tools
+      - libqt6opengl6-dev
+      - libqt6charts6-dev
+      - libqt6svg6-dev
+      - qt6-wayland-dev
+      - libglx-dev
+      - libgl1-mesa-dev
+      - libxkbcommon-dev
+      - libvulkan-dev
+    stage-packages:
+      - libc6
+      - libqt6core6
+      - libqt6gui6
+      - libqt6widgets6
+      - libqt6network6
+      - libqt6charts6
+      - libqt6svg6
+      - systemd
+      - curl
+    build-attributes:
+      - enable-patchelf
+    override-pull: |
+      craftctl default
+      VERSION="$(git describe --tags --abbrev=0)"
+      craftctl set version=$VERSION
+      git checkout $VERSION

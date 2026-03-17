@@ -20,3 +20,6 @@ elfbins.list
 .flatpak-builder
 repo/
 *.flatpak
+
+# snap
+*.snap
