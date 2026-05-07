@@ -40,6 +40,7 @@ platforms:
 apps:
   stacer:
     command: usr/bin/stacer
+    extensions: [kde-neon-6]
     plugs:
       - network
       - network-observe
@@ -61,31 +62,19 @@ parts:
     cmake-parameters:
       - -DCMAKE_BUILD_TYPE=Release
       - -DCMAKE_INSTALL_PREFIX=/usr
+    build-snaps:
+      - kde-qt6-core24-sdk
     build-packages:
       - git
       - build-essential
       - cmake
       - pkg-config
-      - qt6-base-dev
-      - qt6-tools-dev
-      - qt6-tools-dev-tools
-      - qt6-l10n-tools
-      - libqt6opengl6-dev
-      - libqt6charts6-dev
-      - libqt6svg6-dev
-      - qt6-wayland-dev
       - libglx-dev
       - libgl1-mesa-dev
       - libxkbcommon-dev
       - libvulkan-dev
     stage-packages:
       - libc6
-      - libqt6core6
-      - libqt6gui6
-      - libqt6widgets6
-      - libqt6network6
-      - libqt6charts6
-      - libqt6svg6
       - systemd
       - curl
     build-attributes:
