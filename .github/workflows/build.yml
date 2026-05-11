@@ -112,9 +112,43 @@ jobs:
           cache-key: flatpak-builder-${{ github.sha }}
           arch: ${{ matrix.arch }}
 
+  build-snap:
+    name: Build Snap
+    strategy:
+      matrix:
+        os: [ubuntu-24.04, ubuntu-24.04-arm]
+        include:
+          - os: ubuntu-24.04
+            arch: x86_64
+          - os: ubuntu-24.04-arm
+            arch: aarch64
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Get last tag
+        run: |
+          LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "HEAD")
+          echo "last_tag=$LAST_TAG" >> $GITHUB_ENV
+
+      - name: Packaging snap
+        uses: canonical/action-build@v1
+        id: snapcraft
+
+      - name: Artifact Upload
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ steps.snapcraft.outputs.snap }}
+          path: |
+            ${{ steps.snapcraft.outputs.snap }}
+
   publish:
     name: Publish Release
-    needs: [build-all, build-flatpak]
+    needs: [build-all, build-flatpak, build-snap]
     if: github.event_name != 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
@@ -159,6 +193,13 @@ jobs:
           path: ${{ github.workspace }}/release/
           merge-multiple: true
 
+      - name: Download Snap artifacts
+        uses: actions/download-artifact@v8
+        with:
+          pattern: stacer-*.snap
+          path: ${{ github.workspace }}/release/
+          merge-multiple: true
+
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
@@ -177,6 +218,7 @@ jobs:
             ${{ github.workspace }}/release/stacer-*.rpm
             ${{ github.workspace }}/release/Stacer-*.AppImage
             ${{ github.workspace }}/release/fr.quentium.stacer_*.flatpak
+            ${{ github.workspace }}/release/stacer-*.snap
 
       - name: Publish PPA package
         uses: yuezk/publish-ppa-package@main
