@@ -4,19 +4,14 @@
 
 #include <QRegularExpression>
 
-static bool isAptRpm()
-{
-    return CommandUtil::isExecutable("apt-get") && CommandUtil::isExecutable("rpm");
-}
-
 static QString binaryType()
 {
-    return isAptRpm() ? "rpm" : "deb";
+    return CommandUtil::isAptRpm() ? "rpm" : "deb";
 }
 
 static QString sourceType()
 {
-    return isAptRpm() ? "rpm-src" : "deb-src";
+    return CommandUtil::isAptRpm() ? "rpm-src" : "deb-src";
 }
 
 bool AptSourceTool::checkSourceRepository()
@@ -30,7 +25,7 @@ bool AptSourceTool::checkSourceRepository()
 
 void AptSourceTool::removeAPTSource(const APTSourcePtr aptSource)
 {
-    if (isAptRpm() && CommandUtil::isExecutable("apt-repo")) {
+    if (CommandUtil::isAptRpm() && CommandUtil::isExecutable("apt-repo")) {
         // Use apt-repo rm for ALT Linux
         QStringList args = { "rm", aptSource->source };
         CommandUtil::sudoExec("apt-repo", args);
@@ -42,7 +37,7 @@ void AptSourceTool::removeAPTSource(const APTSourcePtr aptSource)
 void AptSourceTool::addRepository(const QString &repository, const bool isSource)
 {
     if (!repository.isEmpty()) {
-        if (isAptRpm() && CommandUtil::isExecutable("apt-repo")) {
+        if (CommandUtil::isAptRpm() && CommandUtil::isExecutable("apt-repo")) {
             // Use apt-repo add for ALT Linux
             // Format: apt-repo add "rpm <uri> <suite> <components>"
             QString source = repository;

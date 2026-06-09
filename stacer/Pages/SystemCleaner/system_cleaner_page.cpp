@@ -2,6 +2,8 @@
 #include "byte_tree_widget.h"
 #include "ui_system_cleaner_page.h"
 
+#include <QDebug>
+
 SystemCleanerPage::~SystemCleanerPage()
 {
     delete ui;
@@ -10,8 +12,8 @@ SystemCleanerPage::~SystemCleanerPage()
 SystemCleanerPage::SystemCleanerPage(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::SystemCleanerPage),
-    im(InfoManager::ins()),
-    tmr(ToolManager::ins()),
+    imgr(InfoManager::ins()),
+    tmgr(ToolManager::ins()),
     mDefaultIcon(QIcon::fromTheme("application-x-executable")),
     mLoadingMovie(nullptr),
     mLoadingMovie_2(nullptr)
@@ -78,10 +80,10 @@ quint64 SystemCleanerPage::addTreeRoot(const CleanCategories &cat, const QString
         root->setText(0, QString("%1 (%2)")
                              .arg(title)
                              .arg(infos.count()));
-
     } else {
-        if (!infos.isEmpty())
+        if (!infos.isEmpty()) {
             totalSize += FileUtil::getFileSize(infos.first().absoluteFilePath());
+        }
 
         root->setText(0, QString("%1")
                              .arg(title));
@@ -145,28 +147,28 @@ void SystemCleanerPage::systemScan()
         if (ui->checkPackageCache->isChecked()) {
             totalSize += addTreeRoot(PACKAGE_CACHE,
                                      ui->lblPackageCache->text(),
-                                     tmr->getPackageCaches());
+                                     tmgr->getPackageCaches());
         }
 
         // Crash Reports
         if (ui->checkCrashReports->isChecked()) {
             totalSize += addTreeRoot(CRASH_REPORTS,
                                      ui->lblCrashReports->text(),
-                                     im->getCrashReports());
+                                     imgr->getCrashReports());
         }
 
         // Application Logs
         if (ui->checkAppLog->isChecked()) {
             totalSize += addTreeRoot(APPLICATION_LOGS,
                                      ui->lblAppLog->text(),
-                                     im->getAppLogs());
+                                     imgr->getAppLogs());
         }
 
         // Application Cache
         if (ui->checkAppCache->isChecked()) {
             totalSize += addTreeRoot(APPLICATION_CACHES,
                                      ui->lblAppCache->text(),
-                                     im->getAppCaches());
+                                     imgr->getAppCaches());
         }
 
         // Trash
@@ -196,7 +198,6 @@ void SystemCleanerPage::systemScan()
 bool SystemCleanerPage::cleanValid()
 {
     for (int i = 0; i < ui->treeWidgetScanResult->topLevelItemCount(); ++i) {
-
         QTreeWidgetItem *it = ui->treeWidgetScanResult->topLevelItem(i);
 
         if (it->checkState(0) == Qt::Checked)
@@ -226,18 +227,14 @@ void SystemCleanerPage::systemClean()
         QList<QTreeWidgetItem *> children;
 
         for (int i = 0; i < tree->topLevelItemCount(); ++i) {
-
             QTreeWidgetItem *it = tree->topLevelItem(i);
 
             CleanCategories cat = (CleanCategories)it->data(2, 0).toInt();
 
             // Package Caches | Crash Reports | Application Logs | Application Caches
             if (cat != CleanCategories::TRASH) {
-
                 for (int j = 0; j < it->childCount(); ++j) { // files
-
                     if (it->child(j)->checkState(0) == Qt::Checked) { // if checked
-
                         QString filePath = it->child(j)->data(2, 0).toString();
 
                         filesToDelete << filePath;
@@ -249,9 +246,7 @@ void SystemCleanerPage::systemClean()
 
             // Trash
             else {
-
                 if (it->checkState(0) == Qt::Checked) {
-
                     QString trashPath = QStandardPaths::writableLocation(QStandardPaths::HomeLocation).append("/.local/share/Trash");
 
                     QDir(trashPath + "/files").removeRecursively();
@@ -267,7 +262,15 @@ void SystemCleanerPage::systemClean()
 
         // remove selected files
         if (!filesToDelete.isEmpty()) {
-            CommandUtil::sudoExec("rm", QStringList() << "-rf" << filesToDelete);
+            try {
+                CommandUtil::sudoExec("rm", QStringList() << "-rf" << filesToDelete);
+            } catch (const QString &ex) {
+                qCritical() << ex;
+                ui->btnClean->show();
+                ui->lblLoadingCleaner->hide();
+                ui->treeWidgetScanResult->setEnabled(true);
+                return;
+            }
         }
 
         for (int i = 0; i < tree->topLevelItemCount(); ++i) {
@@ -279,7 +282,6 @@ void SystemCleanerPage::systemClean()
 
         // update titles
         for (int i = 0; i < tree->topLevelItemCount(); ++i) {
-
             QTreeWidgetItem *it = tree->topLevelItem(i);
 
             it->setText(0, QString("%1 (%2)")
@@ -293,6 +295,7 @@ void SystemCleanerPage::systemClean()
         ui->lblRemovedTotalSize->setText(tr("%1 size files cleaned.")
                                              .arg(FormatUtil::formatBytes(totalCleanedSize)));
 
+        ui->checkSelectAll->setChecked(false);
         ui->btnClean->show();
         ui->lblLoadingCleaner->hide();
         ui->treeWidgetScanResult->setEnabled(true);

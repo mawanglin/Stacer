@@ -1,3 +1,13 @@
+stacer (1.7.0-1) stable; urgency=medium
+
+  * Improve System cleaner exit code check + reset UI states when finished #37
+  * Better APT RPM check to fix regression when rpm was installed on a APT system
+  * Add font size offset accessibility feature
+  * Build on COPR with openSUSE support
+  * Upload both flatpak arch automatically in workflow
+
+ -- Quentin Lienhardt <pro@quentium.fr>  Tue, 12 May 2026 13:00:00 +0100
+
 stacer (1.6.3-1) stable; urgency=medium
 
   * New flatpak package & changed workflow to publish all builds

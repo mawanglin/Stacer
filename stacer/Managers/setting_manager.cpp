@@ -111,3 +111,13 @@ QString SettingManager::getAppQuitDialogChoice() const
 {
     return mSettings->value(SettingKeys::AppQuitDialogChoice, "close").toString();
 }
+
+void SettingManager::setFontSizeOffset(const int value)
+{
+    mSettings->setValue(SettingKeys::FontSizeOffset, value);
+}
+
+int SettingManager::getFontSizeOffset() const
+{
+    return mSettings->value(SettingKeys::FontSizeOffset, 0).toInt();
+}

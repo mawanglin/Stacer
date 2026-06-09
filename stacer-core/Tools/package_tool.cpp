@@ -4,7 +4,7 @@
 #include <QRegularExpression>
 
 const PackageTool::PackageTools PackageTool::currentPackageTool = []() {
-    if (CommandUtil::isExecutable("apt-get") && CommandUtil::isExecutable("rpm")) {
+    if (CommandUtil::isAptRpm()) {
         return PackageTool::APT_RPM;
     } else if (CommandUtil::isExecutable("apt-get")) {
         return PackageTool::APT;

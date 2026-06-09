@@ -33,6 +33,7 @@ class SettingsPage : public QWidget
     void on_spinMemoryPercent_valueChanged(int value);
     void on_spinDiskPercent_valueChanged(int value);
     void on_checkAppQuitDontAsk_clicked(bool checked);
+    void on_spinFontSize_valueChanged(int value);
 
   private:
     Ui::SettingsPage *ui;

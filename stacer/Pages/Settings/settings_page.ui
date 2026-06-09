@@ -233,7 +233,7 @@
    <item row="10" column="3" colspan="2" alignment="Qt::AlignRight">
     <widget class="QLabel" name="lblCreatedBy">
      <property name="text">
-      <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Stacer v1.6.3 &lt;a href=&quot;https://github.com/QuentiumYT/Stacer&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;Quentin Lienhardt&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Stacer v1.7.0 &lt;a href=&quot;https://github.com/QuentiumYT/Stacer&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;Quentin Lienhardt&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="textFormat">
       <enum>Qt::RichText</enum>
@@ -275,6 +275,59 @@
        <width>18</width>
        <height>18</height>
       </size>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QLabel" name="lblFontSize">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>Font Size Adjustment</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3" alignment="Qt::AlignLeft">
+    <widget class="QSpinBox" name="spinFontSize">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>200</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::ClickFocus</enum>
+     </property>
+     <property name="keyboardTracking">
+      <bool>false</bool>
+     </property>
+     <property name="toolTip">
+      <string>Adjust font size relative to default (0 = default)</string>
+     </property>
+     <property name="suffix">
+      <string notr="true"> pt</string>
+     </property>
+     <property name="minimum">
+      <number>-2</number>
+     </property>
+     <property name="maximum">
+      <number>6</number>
      </property>
     </widget>
    </item>

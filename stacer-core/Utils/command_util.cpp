@@ -13,16 +13,14 @@ QString CommandUtil::sudoExec(const QString &cmd, QStringList args, QByteArray d
 
     QString result("");
 
-    try {
-        result = CommandUtil::exec("pkexec", args, data);
-    } catch (const QString &ex) {
-        qCritical() << ex;
-    }
+    qDebug() << "Executing sudo command:" << cmd << "with arguments:" << args;
+
+    result = CommandUtil::exec("pkexec", args, data, true);
 
     return result;
 }
 
-QString CommandUtil::exec(const QString &cmd, QStringList args, QByteArray data)
+QString CommandUtil::exec(const QString &cmd, QStringList args, QByteArray data, bool checkExitCode)
 {
     std::unique_ptr<QProcess> process(new QProcess());
     process->start(cmd, args);
@@ -46,7 +44,28 @@ QString CommandUtil::exec(const QString &cmd, QStringList args, QByteArray data)
     if (process->error() != QProcess::UnknownError)
         throw err;
 
+    if (checkExitCode && process->exitCode() != 0)
+        qCritical() << "Command exited with code" << process->exitCode();
+
     return stdOut.readAll().trimmed();
+}
+
+bool CommandUtil::isAptRpm()
+{
+    if (!isExecutable("apt-get") || !isExecutable("rpm")) {
+        return false;
+    }
+
+    if (isExecutable("apt-repo")) {
+        return true;
+    }
+
+    try {
+        QString version = exec("apt-get", { "--version" });
+        return version.contains("rpm interface", Qt::CaseInsensitive);
+    } catch (const QString &) {
+        return false;
+    }
 }
 
 bool CommandUtil::isExecutable(const QString &cmd)

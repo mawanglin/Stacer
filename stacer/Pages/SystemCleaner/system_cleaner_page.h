@@ -58,8 +58,8 @@ class SystemCleanerPage : public QWidget
   private:
     Ui::SystemCleanerPage *ui;
 
-    InfoManager *im;
-    ToolManager *tmr;
+    InfoManager *imgr;
+    ToolManager *tmgr;
 
     QIcon mDefaultIcon;
     QMovie *mLoadingMovie;

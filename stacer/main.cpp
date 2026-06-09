@@ -5,6 +5,7 @@
 #include <QFontDatabase>
 #include <QLocalServer>
 #include <QLocalSocket>
+#include <QLoggingCategory>
 #include <QSplashScreen>
 
 void messageHandler(QtMsgType type, const QMessageLogContext &context, const QString &message)
@@ -74,6 +75,7 @@ void focusExistingInstance()
 int main(int argc, char *argv[])
 {
     qputenv("QT_ENABLE_HIGHDPI_SCALING", QByteArray("1"));
+    QLoggingCategory::setFilterRules("qt.text.font.db=false");
     QApplication app(argc, argv);
 
     focusExistingInstance();
@@ -87,7 +89,7 @@ int main(int argc, char *argv[])
 
     qApp->setApplicationName("stacer");
     qApp->setApplicationDisplayName("Stacer");
-    qApp->setApplicationVersion("1.6.3");
+    qApp->setApplicationVersion("1.7.0");
     qApp->setWindowIcon(QIcon(":/static/logo.png"));
 
     {

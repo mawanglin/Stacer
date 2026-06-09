@@ -22,8 +22,7 @@ APTSourceManagerPage::APTSourceManagerPage(QWidget *parent) :
 
 void APTSourceManagerPage::init()
 {
-    bool isAptRpm = CommandUtil::isExecutable("apt-get") && CommandUtil::isExecutable("rpm");
-    if (isAptRpm) {
+    if (CommandUtil::isAptRpm()) {
         // APT-RPM only supports the line format for repository definition
         ui->txtAptSource->setPlaceholderText(tr("example %1")
                                                  .arg("'rpm [p10] http://mirror.yandex.ru/altlinux/ p10/branch/x86_64-i586 classic'"));

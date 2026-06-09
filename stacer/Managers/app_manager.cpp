@@ -1,5 +1,6 @@
 #include "app_manager.h"
 #include <QLibraryInfo>
+#include <QRegularExpression>
 
 AppManager *AppManager::instance = nullptr;
 
@@ -105,6 +106,23 @@ void AppManager::updateStylesheet()
     // set values example: @color01 => #fff
     for (const QString &key : mStyleValues->allKeys()) {
         mStylesheetFileContent.replace(key, mStyleValues->value(key).toString());
+    }
+
+    // apply font size offset
+    int fontSizeOffset = mSettingManager->getFontSizeOffset();
+    if (fontSizeOffset != 0) {
+        QRegularExpression re("font-size:\\s*(\\d+)pt");
+        QRegularExpressionMatchIterator it = re.globalMatch(mStylesheetFileContent);
+        QList<QPair<int, int>> replacements; // position, original size
+        while (it.hasNext()) {
+            QRegularExpressionMatch match = it.next();
+            replacements.prepend({ match.capturedStart(1), match.captured(1).toInt() });
+        }
+        for (const QPair<int, int> &r : replacements) {
+            int newSize = qMax(6, r.second + fontSizeOffset);
+            mStylesheetFileContent.replace(r.first, QString::number(r.second).length(),
+                                           QString::number(newSize));
+        }
     }
 
     qApp->setStyleSheet(mStylesheetFileContent);

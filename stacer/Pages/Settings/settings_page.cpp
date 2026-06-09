@@ -100,10 +100,14 @@ void SettingsPage::init()
     ui->spinMemoryPercent->setValue(mSettingManager->getMemoryAlertPercent());
     ui->spinDiskPercent->setValue(mSettingManager->getDiskAlertPercent());
 
+    // load font size offset
+    ui->spinFontSize->setValue(mSettingManager->getFontSizeOffset());
+
     // effects
     QList<QWidget *> widgets = {
         ui->cmbLanguages, /*ui->cmbThemes,*/ ui->cmbDisks, ui->cmbStartPage,
-        ui->btnDonate, ui->spinCpuPercent, ui->spinMemoryPercent, ui->spinDiskPercent
+        ui->btnDonate, ui->spinCpuPercent, ui->spinMemoryPercent, ui->spinDiskPercent,
+        ui->spinFontSize
     };
 
     Utilities::addDropShadow(widgets, 50);
@@ -188,4 +192,10 @@ void SettingsPage::on_spinDiskPercent_valueChanged(int value)
 void SettingsPage::on_checkAppQuitDontAsk_clicked(bool checked)
 {
     mSettingManager->setAppQuitDialogDontAsk(checked);
+}
+
+void SettingsPage::on_spinFontSize_valueChanged(int value)
+{
+    mSettingManager->setFontSizeOffset(value);
+    apm->updateStylesheet();
 }
