@@ -37,6 +37,11 @@ bool StartupAppsPage::checkIfDisabled(const QString &as_path)
 void StartupAppsPage::init()
 {
     mAutostartPath = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation).append("/autostart");
+
+    if (qEnvironmentVariableIsSet("SNAP_REAL_HOME")) {
+        mAutostartPath = QString("%1/.config/autostart").arg(qEnvironmentVariable("SNAP_REAL_HOME"));
+    }
+
     QFileInfo asfi(mAutostartPath);
     bool startups_disabled = false;
 

@@ -43,17 +43,62 @@ apps:
     extensions: [kde-neon-6]
     plugs:
       - network
-      - network-observe
-      - hardware-observe
-      - process-control
-      - system-observe
-      - removable-media
       - home
       - x11
       - wayland
       - desktop
       - desktop-legacy
       - opengl
+      # manual plugs
+      - hardware-observe
+      - network-observe
+      - system-observe
+      - process-control
+      - removable-media
+      # custom stacer plugs
+      - dot-config-autostart
+      - dot-cache-clean
+      - dot-config-clean
+      - local-trash-clean
+      - var-crash-clean
+      - var-log-clean
+      - var-cache-apt-clean
+      - apt-config
+
+plugs:
+  dot-config-autostart:
+    interface: personal-files
+    write:
+      - $HOME/.config/autostart
+  dot-cache-clean:
+    interface: personal-files
+    write:
+      - $HOME/.cache
+  dot-config-clean:
+    interface: personal-files
+    write:
+      - $HOME/.config
+  local-trash-clean:
+    interface: personal-files
+    write:
+      - $HOME/.local/share/Trash
+  var-crash-clean:
+    interface: system-files
+    write:
+      - /var/crash
+  var-log-clean:
+    interface: system-files
+    write:
+      - /var/log
+  var-cache-apt-clean:
+    interface: system-files
+    write:
+      - /var/cache/apt/archives
+  apt-config:
+    interface: system-files
+    write:
+      - /etc/apt/sources.list
+      - /etc/apt/sources.list.d
 
 parts:
   stacer:
@@ -70,7 +115,6 @@ parts:
       - cmake
       - pkg-config
       - libglx-dev
-      - libgl1-mesa-dev
       - libxkbcommon-dev
       - libvulkan-dev
     stage-packages:
@@ -83,4 +127,4 @@ parts:
       craftctl default
       VERSION="$(git describe --tags --abbrev=0)"
       craftctl set version=$VERSION
-      git checkout $VERSION
+      git checkout snapcraft

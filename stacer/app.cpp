@@ -90,6 +90,12 @@ void App::init()
         ui->btnUninstaller->hide();
     }
 
+    if (qEnvironmentVariableIsSet("SNAP_VERSION")) {
+        ui->btnServices->hide();
+        ui->btnUninstaller->hide();
+        ui->btnGnomeSettings->hide();
+    }
+
     // add pages
     for (QWidget *page : mListPages) {
         mSlidingStacked->addWidget(page);

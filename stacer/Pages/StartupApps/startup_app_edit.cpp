@@ -38,7 +38,11 @@ void StartupAppEdit::init()
     setGeometry(QStyle::alignedRect(Qt::LeftToRight, Qt::AlignCenter, size(),
                                     qApp->primaryScreen()->availableGeometry()));
 
-    mAutostartPath = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + "/autostart";
+    mAutostartPath = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation).append("/autostart");
+
+    if (qEnvironmentVariableIsSet("SNAP_REAL_HOME")) {
+        mAutostartPath = QString("%1/.config/autostart").arg(qEnvironmentVariable("SNAP_REAL_HOME"));
+    }
 
     ui->lblErrorMsg->hide();
 

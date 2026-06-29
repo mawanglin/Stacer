@@ -173,9 +173,15 @@ void SystemCleanerPage::systemScan()
 
         // Trash
         if (ui->checkTrash->isChecked()) {
+            QString homePath = QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
+
+            if (qEnvironmentVariableIsSet("SNAP_REAL_HOME")) {
+                homePath = qEnvironmentVariable("SNAP_REAL_HOME");
+            }
+
             totalSize += addTreeRoot(TRASH,
                                      ui->lblTrash->text(),
-                                     { QFileInfo(QDir::homePath() + "/.local/share/Trash/") },
+                                     { QFileInfo(homePath + "/.local/share/Trash/") },
                                      true);
         }
 
@@ -247,7 +253,13 @@ void SystemCleanerPage::systemClean()
             // Trash
             else {
                 if (it->checkState(0) == Qt::Checked) {
-                    QString trashPath = QStandardPaths::writableLocation(QStandardPaths::HomeLocation).append("/.local/share/Trash");
+                    QString homePath = QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
+
+                    if (qEnvironmentVariableIsSet("SNAP_REAL_HOME")) {
+                        homePath = qEnvironmentVariable("SNAP_REAL_HOME");
+                    }
+
+                    QString trashPath = homePath.append("/.local/share/Trash");
 
                     QDir(trashPath + "/files").removeRecursively();
                     QDir(trashPath + "/info").removeRecursively();

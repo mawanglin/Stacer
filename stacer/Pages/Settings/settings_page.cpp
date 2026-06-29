@@ -62,9 +62,15 @@ void SettingsPage::init()
 
     // start on boot
     mStartupAppPath = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation).append("/autostart");
+
+    if (qEnvironmentVariableIsSet("SNAP_REAL_HOME")) {
+        mStartupAppPath = QString("%1/.config/autostart").arg(qEnvironmentVariable("SNAP_REAL_HOME"));
+    }
+
     if (!QDir(mStartupAppPath).exists()) {
         QDir().mkdir(mStartupAppPath);
     }
+
     mStartupAppPath.append("/stacer.desktop");
 
     QFile startupAppFile(mStartupAppPath);
@@ -88,6 +94,11 @@ void SettingsPage::init()
     if (QFile::exists("/.flatpak-info")) {
         mListStartupPages.removeOne(tr("Services"));
         mListStartupPages.removeOne(tr("Processes"));
+        mListStartupPages.removeOne(tr("Uninstaller"));
+    }
+
+    if (qEnvironmentVariableIsSet("SNAP_VERSION")) {
+        mListStartupPages.removeOne(tr("Services"));
         mListStartupPages.removeOne(tr("Uninstaller"));
     }
 

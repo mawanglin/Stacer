@@ -148,6 +148,10 @@ QFileInfoList SystemInfo::getAppCaches() const
 {
     QString homePath = QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
 
+    if (qEnvironmentVariableIsSet("SNAP_REAL_HOME")) {
+        homePath = qEnvironmentVariable("SNAP_REAL_HOME");
+    }
+
     // Main cache location (only files and folders)
     QFileInfoList mainCache = QDir(homePath + "/.cache").entryInfoList(QDir::Files | QDir::Dirs | QDir::NoDotAndDotDot);
 

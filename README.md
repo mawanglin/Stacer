@@ -155,6 +155,46 @@ Run: `flatpak run fr.quentium.acters`
 > [!NOTE]
 > Flatpak is running in a sandboxed environment, which may limit access to certain system resources (i.e. disk usage). Services, Processes, Uninstaller and APT Repository Manager are hidden by default. System Cleaner and Startup Apps are also limited in this version.
 
+### Snap (Local package)
+
+1. Download the `.snap` package from [Stacer releases](https://github.com/QuentiumYT/Stacer/releases).
+2. Install:
+   ```bash
+   sudo snap install --dangerous stacer_*.snap
+   ```
+3. Run: `snap run stacer`
+
+> [!NOTE]
+> When running with `strict` confinement, Snap disables some system capabilities by default. To make all features work correctly (such as network data, Startup apps, System Cleaner, Processes, Services and APT management), you must manually connect the following plugs:
+> ```bash
+> # Connect system metrics & task monitoring
+> sudo snap connect stacer:hardware-observe
+> sudo snap connect stacer:network-observe
+> sudo snap connect stacer:system-observe
+> sudo snap connect stacer:process-control
+> sudo snap connect stacer:removable-media
+> 
+> # Connect startup apps, system cleaner and apt management
+> sudo snap connect stacer:dot-config-autostart
+> sudo snap connect stacer:dot-cache-clean
+> sudo snap connect stacer:dot-config-clean
+> sudo snap connect stacer:local-trash-clean
+> sudo snap connect stacer:var-crash-clean
+> sudo snap connect stacer:var-log-clean
+> sudo snap connect stacer:var-cache-apt-clean
+> sudo snap connect stacer:apt-config
+> ```
+
+### Snap (Snap Store)
+
+```bash
+sudo snap install stacer
+```
+Run: `snap run stacer`
+
+> [!NOTE]
+> When running with `strict` confinement, Snap disables some system capabilities by default. Installing directly from the Snap Store will prevent some features from working correctly (such as network data, Startup apps, System Cleaner, Processes, Services and APT management). Prefer using the native Ubuntu package instead.
+
 ## Build from Source (CMake)
 
 1. Install dependencies:

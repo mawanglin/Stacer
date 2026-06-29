@@ -385,7 +385,13 @@ void SearchPage::on_tableFoundResults_customContextMenuRequested(const QPoint &p
                     QDesktopServices::openUrl(folderPath);
                 }
             } else if (action->data().toString() == "move-trash") {
-                QString trashPath(QDir::homePath() + "/.local/share/Trash");
+                QString homePath = QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
+
+                if (qEnvironmentVariableIsSet("SNAP_REAL_HOME")) {
+                    homePath = qEnvironmentVariable("SNAP_REAL_HOME");
+                }
+
+                QString trashPath = homePath.append("/.local/share/Trash");
 
                 while (!selectionModel->selectedRows().isEmpty()) {
                     QModelIndex index = selectionModel->selectedRows().first();
