@@ -2,6 +2,7 @@
 #include "ui_dashboard_page.h"
 #include "utilities.h"
 
+#include <QFile>
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
 #include <QNetworkRequest>
@@ -64,6 +65,18 @@ void DashboardPage::init()
     // check update
     checkUpdate();
     connect(this, &DashboardPage::sigShowUpdateBar, ui->widgetUpdateBar, &QWidget::show);
+
+    ui->widgetSandboxBar->hide();
+    bool isFlatpak = QFile::exists(QString("/.flatpak-info"));
+    bool isSnap = qEnvironmentVariableIsSet("SNAP_VERSION");
+
+    if (isFlatpak) {
+        ui->lblSandboxBarText->setText(tr("Stacer is running as Flatpak, some features may be limited."));
+        ui->widgetSandboxBar->show();
+    } else if (isSnap) {
+        ui->lblSandboxBarText->setText(tr("Stacer is running as Snap, some features may be limited."));
+        ui->widgetSandboxBar->show();
+    }
 
     QList<QWidget *> widgets = {
         mCpuBar, mMemBar, mDiskBar, mDownloadBar, mUploadBar

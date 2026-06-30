@@ -896,6 +896,20 @@ QLabel[accessibleName="dialog-title"] {
     padding: 4 10;
 }
 
+/*****************
+    SANDBOX BAR
+******************/
+
+#widgetSandboxBar {
+    background-color: @color03;
+    border-radius: 2;
+}
+
+#lblSandboxBarText {
+    font-size: 10pt;
+    color: @color05;
+}
+
 /****************
     FEEDBACK
 *****************/
@@ -1069,4 +1083,3 @@ SEARCH
     font-size: 11pt;
     color: @color12;
 }
-
