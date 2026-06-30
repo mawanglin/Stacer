@@ -77,7 +77,7 @@ Run: `stacer`
 
 ### Debian/Ubuntu (APT)
 
-⚠️ Not up to date, a newer version is available in [Debian forky](https://packages.debian.org/forky/stacer) or [Ubuntu resolute](https://packages.ubuntu.com/resolute/stacer).
+⚠️ Not up to date on every distro, a newer version is available already in [Debian forky](https://packages.debian.org/forky/stacer) or [Ubuntu resolute](https://packages.ubuntu.com/resolute/stacer).
 Old stacer (version 1.1.0) is available up to Debian bookworm or Ubuntu questing.
 
 ```bash
@@ -166,10 +166,10 @@ Run: `flatpak run fr.quentium.acters`
     qt6-tools-dev \
     qt6-tools-dev-tools \
     qt6-l10n-tools \
-    libqt6opengl6-dev \
-    libqt6charts6-dev \
-    libqt6svg6-dev \
     qt6-wayland-dev \
+    qt6-charts-dev \ # Or previously libqt6charts6-dev
+    qt6-svg-dev \ # Or previously libqt6svg6-dev
+    libqt6opengl6-dev \
     libgl-dev \
     libxkbcommon-dev \
     libvulkan-dev
