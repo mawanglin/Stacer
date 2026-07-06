@@ -37,7 +37,7 @@ Requires:       qt6-charts
 Requires:       qt6-svg
 %else
 Requires:       qt6-qtcharts%{?_isa}
-Requires:       qt6-svg%{?_isa}
+Requires:       qt6-qtsvg%{?_isa}
 %endif
 
 %description
