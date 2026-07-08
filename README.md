@@ -165,7 +165,7 @@ Run: `flatpak run fr.quentium.acters`
 3. Run: `snap run stacer`
 
 > [!NOTE]
-> When running with `strict` confinement, Snap disables some system capabilities by default. To make all features work correctly (such as network data, Startup apps, System Cleaner, Processes, Services and APT management), you must manually connect the following plugs:
+> When running with `strict` confinement, Snap disables some system capabilities by default. To make most features work correctly (such as network data, Startup apps, System Cleaner, Processes, Services and APT management), you must manually connect the following plugs:
 > ```bash
 > # Connect system metrics & task monitoring
 > sudo snap connect stacer:hardware-observe
@@ -176,14 +176,15 @@ Run: `flatpak run fr.quentium.acters`
 > 
 > # Connect startup apps, system cleaner and apt management
 > sudo snap connect stacer:dot-config-autostart
-> sudo snap connect stacer:dot-cache-clean
-> sudo snap connect stacer:dot-config-clean
-> sudo snap connect stacer:local-trash-clean
-> sudo snap connect stacer:var-crash-clean
-> sudo snap connect stacer:var-log-clean
-> sudo snap connect stacer:var-cache-apt-clean
-> sudo snap connect stacer:apt-config
+> sudo snap connect stacer:dot-cache
+> sudo snap connect stacer:dot-config
+> sudo snap connect stacer:dot-local-share-trash
+> sudo snap connect stacer:var-crash
+> sudo snap connect stacer:var-log
+> sudo snap connect stacer:var-cache-apt-archives
+> sudo snap connect stacer:etc-apt-sources
 > ```
+> Note that some features may still not work correctly due to Snap's confinement limitations.
 
 ### Snap (Snap Store)
 
@@ -193,7 +194,16 @@ sudo snap install stacer
 Run: `snap run stacer`
 
 > [!NOTE]
-> When running with `strict` confinement, Snap disables some system capabilities by default. Installing directly from the Snap Store will prevent some features from working correctly (such as network data, Startup apps, System Cleaner, Processes, Services and APT management). Prefer using the native Ubuntu package instead.
+> When running with `strict` confinement, Snap disables some system capabilities by default. Installing directly from the Snap Store will prevent some features from working correctly (such as System Cleaner, Services and APT management). Prefer using the native Ubuntu package instead, or you will need to manually connect the necessary plugs:
+> ```bash
+> # Connect system cleaner and apt management
+> sudo snap connect stacer:dot-cache
+> sudo snap connect stacer:dot-config
+> sudo snap connect stacer:dot-local-share-trash
+> sudo snap connect stacer:var-crash
+> sudo snap connect stacer:var-log
+> sudo snap connect stacer:var-cache-apt-archives
+> ```
 
 ## Build from Source (CMake)
 

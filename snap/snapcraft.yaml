@@ -57,44 +57,44 @@ apps:
       - removable-media
       # custom stacer plugs
       - dot-config-autostart
-      - dot-cache-clean
-      - dot-config-clean
-      - local-trash-clean
-      - var-crash-clean
-      - var-log-clean
-      - var-cache-apt-clean
-      - apt-config
+      - dot-cache
+      - dot-config
+      - dot-local-share-trash
+      - var-crash
+      - var-log
+      - var-cache-apt-archives
+      - etc-apt-sources
 
 plugs:
   dot-config-autostart:
     interface: personal-files
     write:
       - $HOME/.config/autostart
-  dot-cache-clean:
+  dot-cache:
     interface: personal-files
     write:
       - $HOME/.cache
-  dot-config-clean:
+  dot-config:
     interface: personal-files
     write:
       - $HOME/.config
-  local-trash-clean:
+  dot-local-share-trash:
     interface: personal-files
     write:
       - $HOME/.local/share/Trash
-  var-crash-clean:
+  var-crash:
     interface: system-files
     write:
       - /var/crash
-  var-log-clean:
+  var-log:
     interface: system-files
     write:
       - /var/log
-  var-cache-apt-clean:
+  var-cache-apt-archives:
     interface: system-files
     write:
       - /var/cache/apt/archives
-  apt-config:
+  etc-apt-sources:
     interface: system-files
     write:
       - /etc/apt/sources.list
