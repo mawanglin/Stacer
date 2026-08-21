@@ -93,7 +93,7 @@
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="338"/>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="105"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="104"/>
         <source>Add Repository</source>
         <translation>Pakketbron toevoegen</translation>
     </message>
@@ -108,23 +108,23 @@
         <translation>Selecteer om te verwijderen of te bewerken.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="28"/>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="32"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="27"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="31"/>
         <source>example %1</source>
         <translation>voorbeeld %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="73"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="72"/>
         <source>APT Repositories (%1)</source>
         <translation>APT-pakketbronnen (%1)</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="79"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="78"/>
         <source>Save</source>
         <translation>Opslaan</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="85"/>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="84"/>
         <source>Adding...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -754,52 +754,52 @@
         <translation>Geschiedenis van netwerk</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="106"/>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="107"/>
         <source>File System</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="122"/>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="123"/>
         <source>File System Type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="142"/>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="143"/>
         <source>Device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="217"/>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="218"/>
         <source>Read: %1/s Total: %2</source>
         <translation>Gelezen: %1/s Totaal: %2</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="222"/>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="223"/>
         <source>Write: %1/s Total: %2</source>
         <translation>Geschreven: %1/s Totaal: %2</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="259"/>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="260"/>
         <source>%1 Minute Average: %2</source>
         <translation>%1 gemiddeld aantal minuten: %2</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="307"/>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="308"/>
         <source>Download: %1/s Total: %2</source>
         <translation>Download: %1/s Totaal: %2</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="312"/>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="313"/>
         <source>Upload: %1/s  Total: %2</source>
         <translation>Upload: %1/s  Totaal: %2</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="356"/>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="357"/>
         <source>Swap: %1 (%2%) %3</source>
         <translation>Wisselgeheugen: %1 (%2%) %3</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="365"/>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="366"/>
         <source>Memory: %1 (%2%) %3</source>
         <translation>Geheugen: %1 (%2%) %3</translation>
     </message>
@@ -1062,17 +1062,17 @@
         <translation>Diensten</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="137"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="161"/>
         <source>Startup at boot ?</source>
         <translation>Uitvoeren bij systeemopstart?</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="190"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="214"/>
         <source>Running Now ?</source>
         <translation>Wordt nu uitgevoerd?</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="244"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="268"/>
         <source>Not Found System Service</source>
         <translation>De systeemdienst kan niet worden gevonden.</translation>
     </message>
@@ -1121,51 +1121,66 @@
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.ui" line="97"/>
+        <source>Theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="110"/>
         <source>Memory Percent</source>
         <translation>Geheugenpercentage</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="129"/>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="173"/>
         <source>Disk Percent</source>
         <translation>Schijfpercentage</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="329"/>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="334"/>
+        <source>Font Size Adjustment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="365"/>
+        <source>Adjust font size relative to default (0 = default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="426"/>
         <source>App Quit Don&apos;t Ask</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="389"/>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="486"/>
         <source>Disks</source>
         <translation>Schijven</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="158"/>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="202"/>
         <source>Language</source>
         <translation>Taal</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="171"/>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="215"/>
         <source>Autostart Stacer</source>
         <translation>Automatisch opstarten</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="229"/>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="273"/>
         <source>Alert messages (Show a warning after the specified percentage)</source>
         <translation>Waarschuwingsmeldingen (laat een waarschuwing zien als het opgegeven percentage bereikt is)</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="402"/>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="499"/>
         <source>Start Page</source>
         <translation>Startpagina</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="213"/>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="257"/>
         <source>CPU Percent</source>
         <translation>CPU-percentage</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="267"/>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="311"/>
         <source>Donate</source>
         <translation>Doneren</translation>
     </message>
@@ -1362,24 +1377,24 @@
         <translation>Naam</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="33"/>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="35"/>
         <source>File Name</source>
         <translation>Bestandsnaam</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="180"/>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="182"/>
         <source>Total size: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="791"/>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="800"/>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="33"/>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="35"/>
         <source>Size</source>
         <translation>Grootte</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="293"/>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="295"/>
         <source>%1 size files cleaned.</source>
         <translation>%1 bestanden opgeschoond.</translation>
     </message>
