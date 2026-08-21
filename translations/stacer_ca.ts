@@ -1062,17 +1062,17 @@
         <translation>Serveis</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="137"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="161"/>
         <source>Startup at boot ?</source>
         <translation>Carrega a l&apos;inici?</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="190"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="214"/>
         <source>Running Now ?</source>
         <translation>S&apos;està executant ara?</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="244"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="268"/>
         <source>Not Found System Service</source>
         <translation>Servei del sistema no trobat</translation>
     </message>

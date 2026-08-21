@@ -1062,17 +1062,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="137"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="161"/>
         <source>Startup at boot ?</source>
         <translation>ಬೂಟ್ ಸಮಯದಲ್ಲಿ ಪ್ರಾರಂಭಿಸುವುದೇ??</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="190"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="214"/>
         <source>Running Now ?</source>
         <translation>ಈಗ ಚಾಲನೆಯಲ್ಲಿದೆಯೆ?</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="244"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="268"/>
         <source>Not Found System Service</source>
         <translation>ಯಾವುದೇ ಸಿಸ್ಟಮ್ ಸೇವೆ ಕಂಡುಬಂದಿಲ್ಲ</translation>
     </message>

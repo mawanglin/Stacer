@@ -1062,17 +1062,17 @@
         <translation>സര്‍വീസുകള്‍</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="137"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="161"/>
         <source>Startup at boot ?</source>
         <translation>ബൂട്ടിങ്  സമയത്ത് ആരംഭിക്കുന്നു ?</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="190"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="214"/>
         <source>Running Now ?</source>
         <translation>ഇപ്പോൾ പ്രവർത്തിക്കുന്നുണ്ടോ ?</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="244"/>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="268"/>
         <source>Not Found System Service</source>
         <translation>സിസ്റ്റം സർവീസുകൾ കണ്ടെത്താനായില്ല</translation>
     </message>
