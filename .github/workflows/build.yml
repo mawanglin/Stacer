@@ -32,7 +32,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Update package repositories
         run: sudo apt-get update
@@ -90,7 +90,7 @@ jobs:
       options: --privileged
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
           fetch-tags: true
@@ -119,7 +119,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
           fetch-tags: true
@@ -160,7 +160,7 @@ jobs:
           merge-multiple: true
 
       - name: Publish release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ github.ref_name }}
           name: ${{ github.ref_name }}
@@ -179,7 +179,7 @@ jobs:
             ${{ github.workspace }}/release/fr.quentium.stacer_*.flatpak
 
       - name: Publish PPA package
-        uses: Quentium-Forks/publish-ppa-package@main
+        uses: yuezk/publish-ppa-package@main
         with:
           tarball: ${{ github.workspace }}/release/stacer-*.tar.gz
           debian_dir: ${{ github.workspace }}/debian/
