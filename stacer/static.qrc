@@ -39,12 +39,12 @@
         <file>static/themes/default/img/down-arrow.png</file>
         <file>static/themes/default/img/edit.png</file>
         <file>static/themes/default/img/fit.png</file>
-        <file>static/themes/default/img/loading.gif</file>
+        <file>static/themes/default/img/loading.svg</file>
         <file>static/themes/default/img/ppa-repository.png</file>
         <file>static/themes/default/img/right-arrow.png</file>
         <file>static/themes/default/img/scan-active.png</file>
         <file>static/themes/default/img/scan.png</file>
-        <file>static/themes/default/img/scanning.gif</file>
+        <file>static/themes/default/img/scanning.svg</file>
         <file>static/themes/default/img/delete.png</file>
         <file>static/themes/default/img/sidebar-icons/cleaner.png</file>
         <file>static/themes/default/img/sidebar-icons/dash.png</file>
@@ -68,12 +68,12 @@
         <file>static/themes/light/img/down-arrow.png</file>
         <file>static/themes/light/img/edit.png</file>
         <file>static/themes/light/img/fit.png</file>
-        <file>static/themes/light/img/loading.gif</file>
+        <file>static/themes/light/img/loading.svg</file>
         <file>static/themes/light/img/ppa-repository.png</file>
         <file>static/themes/light/img/right-arrow.png</file>
         <file>static/themes/light/img/scan-active.png</file>
         <file>static/themes/light/img/scan.png</file>
-        <file>static/themes/light/img/scanning.gif</file>
+        <file>static/themes/light/img/scanning.svg</file>
         <file>static/themes/light/img/delete.png</file>
         <file>static/themes/light/style/style.qss</file>
         <file>static/themes/light/style/values.ini</file>

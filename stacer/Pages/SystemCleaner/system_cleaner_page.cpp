@@ -3,6 +3,7 @@
 #include "ui_system_cleaner_page.h"
 
 #include <QDebug>
+#include <QPainter>
 
 SystemCleanerPage::~SystemCleanerPage()
 {
@@ -15,8 +16,8 @@ SystemCleanerPage::SystemCleanerPage(QWidget *parent) :
     imgr(InfoManager::ins()),
     tmgr(ToolManager::ins()),
     mDefaultIcon(QIcon::fromTheme("application-x-executable")),
-    mLoadingMovie(nullptr),
-    mLoadingMovie_2(nullptr)
+    mScannerRenderer(nullptr),
+    mCleanerRenderer(nullptr)
 {
     ui->setupUi(this);
 
@@ -38,14 +39,19 @@ void SystemCleanerPage::init()
     connect(SignalMapper::ins(), &SignalMapper::sigChangedAppTheme, [this] {
         QString themeName = SettingManager::ins()->getThemeName();
 
-        mLoadingMovie = new QMovie(QString(":/static/themes/%1/img/scanning.gif").arg(themeName), {}, this);
-        ui->lblLoadingScanner->setMovie(mLoadingMovie);
-        mLoadingMovie->start();
+        delete mScannerRenderer;
+        mScannerRenderer = new QSvgRenderer(QString(":/static/themes/%1/img/scanning.svg").arg(themeName), this);
+        mScannerRenderer->setFramesPerSecond(60);
+        connect(mScannerRenderer, &QSvgRenderer::repaintNeeded, this, &SystemCleanerPage::renderScanner);
+        renderScanner();
         ui->lblLoadingScanner->hide();
 
-        mLoadingMovie_2 = new QMovie(QString(":/static/themes/%1/img/loading.gif").arg(themeName), {}, this);
-        ui->lblLoadingCleaner->setMovie(mLoadingMovie_2);
-        mLoadingMovie_2->start();
+        delete mCleanerRenderer;
+        mCleanerRenderer = new QSvgRenderer(QString(":/static/themes/%1/img/loading.svg").arg(themeName), this);
+        mCleanerRenderer->setFramesPerSecond(60);
+        mCleanerRenderer->setAspectRatioMode(Qt::KeepAspectRatio);
+        connect(mCleanerRenderer, &QSvgRenderer::repaintNeeded, this, &SystemCleanerPage::renderCleaner);
+        renderCleaner();
         ui->lblLoadingCleaner->hide();
     });
 
@@ -53,6 +59,32 @@ void SystemCleanerPage::init()
     qRegisterMetaType<QList<QPersistentModelIndex>>();
     qRegisterMetaType<QAbstractItemModel::LayoutChangeHint>();
     qRegisterMetaType<Qt::SortOrder>();
+}
+
+void SystemCleanerPage::renderScanner()
+{
+    if (!mScannerRenderer || !mScannerRenderer->isValid())
+        return;
+
+    QPixmap pixmap(ui->lblLoadingScanner->size());
+    pixmap.fill(Qt::transparent);
+
+    QPainter painter(&pixmap);
+    mScannerRenderer->render(&painter);
+    ui->lblLoadingScanner->setPixmap(pixmap);
+}
+
+void SystemCleanerPage::renderCleaner()
+{
+    if (!mCleanerRenderer || !mCleanerRenderer->isValid())
+        return;
+
+    QPixmap pixmap(ui->lblLoadingCleaner->size());
+    pixmap.fill(Qt::transparent);
+
+    QPainter painter(&pixmap);
+    mCleanerRenderer->render(&painter);
+    ui->lblLoadingCleaner->setPixmap(pixmap);
 }
 
 quint64 SystemCleanerPage::addTreeRoot(const CleanCategories &cat, const QString &title, const QFileInfoList &infos, bool noChild)

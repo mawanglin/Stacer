@@ -4,6 +4,7 @@
 #include <QDir>
 #include <QMap>
 #include <QMovie>
+#include <QSvgRenderer>
 #include <QThread>
 #include <QTreeWidgetItem>
 #include <QWidget>
@@ -54,6 +55,8 @@ class SystemCleanerPage : public QWidget
 
   private:
     void init();
+    void renderScanner();
+    void renderCleaner();
 
   private:
     Ui::SystemCleanerPage *ui;
@@ -62,8 +65,8 @@ class SystemCleanerPage : public QWidget
     ToolManager *tmgr;
 
     QIcon mDefaultIcon;
-    QMovie *mLoadingMovie;
-    QMovie *mLoadingMovie_2;
+    QSvgRenderer *mScannerRenderer;
+    QSvgRenderer *mCleanerRenderer;
 };
 
 #endif // SYSTEMCLEANERPAGE_H

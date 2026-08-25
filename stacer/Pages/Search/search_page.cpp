@@ -2,12 +2,14 @@
 #include "ui_search_page.h"
 
 #include <QClipboard>
+#include <QPainter>
 
 SearchPage::SearchPage(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::SearchPage),
     mItemModel(new QStandardItemModel(this)),
-    mSortFilterModel(new QSortFilterProxyModel(this))
+    mSortFilterModel(new QSortFilterProxyModel(this)),
+    mLoadingRenderer(nullptr)
 {
     ui->setupUi(this);
 
@@ -66,10 +68,14 @@ void SearchPage::init()
 
     ui->lblErrorMsg->hide();
 
-    QString iconLoading = QString(":/static/themes/%1/img/loading.gif").arg(SettingManager::ins()->getThemeName());
-    QMovie *loadingMovie = new QMovie(iconLoading, QByteArray(), this);
-    ui->lblLoadingSearching->setMovie(loadingMovie);
-    loadingMovie->start();
+    QString themeName = SettingManager::ins()->getThemeName();
+
+    delete mLoadingRenderer;
+    mLoadingRenderer = new QSvgRenderer(QString(":/static/themes/%1/img/loading.svg").arg(themeName), this);
+    mLoadingRenderer->setFramesPerSecond(60);
+    mLoadingRenderer->setAspectRatioMode(Qt::KeepAspectRatio);
+    connect(mLoadingRenderer, &QSvgRenderer::repaintNeeded, this, &SearchPage::renderLoading);
+    renderLoading();
     ui->lblLoadingSearching->hide();
 
     initComboboxValues();
@@ -81,6 +87,19 @@ void SearchPage::init()
     };
 
     Utilities::addDropShadow(widgets, 30);
+}
+
+void SearchPage::renderLoading()
+{
+    if (!mLoadingRenderer || !mLoadingRenderer->isValid())
+        return;
+
+    QPixmap pixmap(ui->lblLoadingSearching->size());
+    pixmap.fill(Qt::transparent);
+
+    QPainter painter(&pixmap);
+    mLoadingRenderer->render(&painter);
+    ui->lblLoadingSearching->setPixmap(pixmap);
 }
 
 void SearchPage::loadTableRowMenu()

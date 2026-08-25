@@ -6,9 +6,9 @@
 #include <QDesktopServices>
 #include <QFileDialog>
 #include <QMenu>
-#include <QMovie>
 #include <QSortFilterProxyModel>
 #include <QStandardItemModel>
+#include <QSvgRenderer>
 #include <QWidget>
 #include <QtConcurrent>
 
@@ -47,6 +47,8 @@ class SearchPage : public QWidget
     void on_tableFoundResults_doubleClicked(const QModelIndex &index);
 
   private:
+    void renderLoading();
+
     Ui::SearchPage *ui;
 
     QString mSelectedDirectory;
@@ -58,6 +60,7 @@ class SearchPage : public QWidget
     QMenu mTableRowMenu;
     QString mSearchResultDateFormat;
     int rowRole;
+    QSvgRenderer *mLoadingRenderer;
 };
 
 #endif // SEARCH_PAGE_H

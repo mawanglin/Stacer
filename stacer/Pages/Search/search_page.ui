@@ -173,6 +173,12 @@
    </item>
    <item row="8" column="0" colspan="2" alignment="Qt::AlignHCenter">
     <widget class="QLabel" name="lblLoadingSearching">
+     <property name="minimumSize">
+      <size>
+       <width>76</width>
+       <height>20</height>
+      </size>
+     </property>
      <property name="text">
       <string/>
      </property>
