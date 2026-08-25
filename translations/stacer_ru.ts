@@ -611,7 +611,7 @@
     <message>
       <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="39"/>
       <source>Full Qualified</source>
-      <translation>Полное</translation>
+      <translation>Полное имя</translation>
     </message>
     <message>
       <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="137"/>
