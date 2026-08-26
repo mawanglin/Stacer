@@ -1,0 +1,7 @@
+{
+ "SettingsPage|Adjust font size relative to default (0 = default)": "Настройка размера шрифта относительно стандартного (0 = по умолчанию)",
+ "SettingsPage|Font Size Adjustment": "Настройка размера шрифта",
+ "SettingsPage|Language Changed": "Язык изменён",
+ "SettingsPage|The language change will take effect after restarting Stacer.": "Изменение языка вступит в силу после перезапуска Stacer.",
+ "SettingsPage|Theme": "Тема"
+}

@@ -1,0 +1,215 @@
+APTSourceEdit|APT Repository
+APTSourceEdit|APT Repository Edit
+APTSourceEdit|Components
+APTSourceEdit|Suites
+APTSourceEdit|URI
+APTSourceManagerPage|APT Repositories (%1)
+APTSourceManagerPage|APT Repository Manager
+APTSourceManagerPage|Adding...
+APTSourceManagerPage|Enable Source
+APTSourceManagerPage|example %1
+APTSourceRepositoryItem|%1 (Source Code)
+App|APT Repository Manager
+App|Continue
+App|Don't ask again.
+App|Gnome Settings
+App|Helpers
+App|Search
+App|Will the program continue to work in the system tray?
+AppearanceSettings|Background Image Mode
+AppearanceSettings|Centered
+AppearanceSettings|Desktop Mode
+AppearanceSettings|Home Icon
+AppearanceSettings|Login Mode
+AppearanceSettings|Mounted Volumes Icon
+AppearanceSettings|Network Icon
+AppearanceSettings|Scaled
+AppearanceSettings|Screen Keyboard
+AppearanceSettings|Screen Reader
+AppearanceSettings|Show Desktop Icons
+AppearanceSettings|Spanned
+AppearanceSettings|Stretched
+AppearanceSettings|Trash Icon
+AppearanceSettings|Wallpaper
+AppearanceSettings|Zoom
+DashboardPage|High CPU Usage
+DashboardPage|High Disk Usage
+DashboardPage|High Memory Usage
+DashboardPage|The amount of CPU used is over %1%.
+DashboardPage|The amount of disk used is over %1%.
+DashboardPage|The amount of memory used is over %1%.
+Feedback|Close
+Feedback|Name
+GnomeSettingsPage|Appearance
+GnomeSettingsPage|Gnome Settings
+GnomeSettingsPage|Unity Settings
+GnomeSettingsPage|Window Manager
+HelpersPage|Helpers
+HelpersPage|Host Manage
+HostManage|Aliases
+HostManage|Form
+HostManage|Full Qualified
+HostManage|Fully Qualified Name *
+HostManage|Hosts (%1)
+HostManage|IP Address
+HostManage|IP Address *
+HostManage|New Host
+HostManage|Save Changes
+HostManage|The IP and Fully Qualified fields are required.
+ResourcesPage|%1 Minute Average: %2
+ResourcesPage|Device
+ResourcesPage|Download: %1/s Total: %2
+ResourcesPage|File System
+ResourcesPage|File System Type
+ResourcesPage|History of CPU
+ResourcesPage|History of CPU Load Averages
+ResourcesPage|History of Disk Read Write
+ResourcesPage|History of Memory
+ResourcesPage|History of Network
+ResourcesPage|Memory: %1 (%2%) %3
+ResourcesPage|Read: %1/s Total: %2
+ResourcesPage|Swap: %1 (%2%) %3
+ResourcesPage|Upload: %1/s  Total: %2
+ResourcesPage|Write: %1/s Total: %2
+SearchPage| minute
+SearchPage|%1 files found. Showing %2 of them.
+SearchPage|Access
+SearchPage|Advanced Search
+SearchPage|Advanced Search %1
+SearchPage|All
+SearchPage|BETA version
+SearchPage|Browse...
+SearchPage|Case Insensitive
+SearchPage|Change
+SearchPage|Choose
+SearchPage|Creation Time
+SearchPage|Directory
+SearchPage|Directory: %1
+SearchPage|Empty
+SearchPage|Equal (=)
+SearchPage|Executable
+SearchPage|File
+SearchPage|File or Folder:
+SearchPage|Greater (>)
+SearchPage|Invert
+SearchPage|Last Access
+SearchPage|Last Change
+SearchPage|Last Modification
+SearchPage|Modify
+SearchPage|Move Trash
+SearchPage|Name
+SearchPage|Open Folder
+SearchPage|Owner
+SearchPage|Path
+SearchPage|Permissions
+SearchPage|Readable
+SearchPage|RegEx
+SearchPage|Search
+SearchPage|Search as Root
+SearchPage|Select Directory
+SearchPage|Select the search directory.
+SearchPage|Smaller (<)
+SearchPage|Somethings went wrong, try again.
+SearchPage|Symbolic Link
+SearchPage|Time
+SearchPage|Writable
+ServicesPage|Disabled
+ServicesPage|Enabled
+ServicesPage|Not Running
+ServicesPage|Running
+ServicesPage|Running Status
+ServicesPage|Startup Status
+SettingsPage|Adjust font size relative to default (0 = default)
+SettingsPage|Alert messages (Show a warning after the specified percentage)
+SettingsPage|App Quit Don't Ask
+SettingsPage|Autostart Stacer
+SettingsPage|CPU Percent
+SettingsPage|Disk Percent
+SettingsPage|Disks
+SettingsPage|Donate
+SettingsPage|Font Size Adjustment
+SettingsPage|Helpers
+SettingsPage|Memory Percent
+SettingsPage|Search
+SettingsPage|Start Page
+SettingsPage|Theme
+StartupApp|Delete App
+StartupApp|Edit App
+StartupAppEdit|App Icon
+StartupAppEdit|Generic Name
+StartupAppsPage|Startup Applications (%1)
+StartupAppsPage|Startup Apps are disabled.
+SystemCleanerPage|Name
+SystemCleanerPage|Select all
+SystemCleanerPage|Sort by: 
+SystemCleanerPage|Total size: %1
+UninstallerPage|Packages (%1)
+UninstallerPage|Snap Packages
+UninstallerPage|Snap Packages (%1)
+UninstallerPage|System Packages
+UninstallerPage|Uninstall Selected (%1)
+UnitySettings|24-Hour Time
+UnitySettings|All Desktops
+UnitySettings|Appearance
+UnitySettings|Applications
+UnitySettings|Auto Hide
+UnitySettings|Background Blur
+UnitySettings|Behaviour
+UnitySettings|Bottom
+UnitySettings|Calendar
+UnitySettings|Date
+UnitySettings|Date & Time
+UnitySettings|Enable search of your files
+UnitySettings|General
+UnitySettings|Icon size
+UnitySettings|Include
+UnitySettings|Indicators
+UnitySettings|Launcher
+UnitySettings|Left
+UnitySettings|Left Side
+UnitySettings|Minimize applications with clicking
+UnitySettings|Panel
+UnitySettings|Position
+UnitySettings|Primary Desktop
+UnitySettings|Reveal Location
+UnitySettings|Reveal Sensitivity
+UnitySettings|Search
+UnitySettings|Search online sources
+UnitySettings|Seconds
+UnitySettings|Show "More Suggestions"
+UnitySettings|Show "Recently Used" applications
+UnitySettings|Top-Left Corner
+UnitySettings|Transparency Level
+UnitySettings|Visibility
+UnitySettings|Volume
+UnitySettings|Weekday
+WindowManagerSettings|Additional
+WindowManagerSettings|Best
+WindowManagerSettings|Click
+WindowManagerSettings|Double click
+WindowManagerSettings|Fast
+WindowManagerSettings|Focus Behaviour
+WindowManagerSettings|Focus mode
+WindowManagerSettings|General
+WindowManagerSettings|Good
+WindowManagerSettings|Hardware Acceleration
+WindowManagerSettings|Horizontal workspaces
+WindowManagerSettings|Lower
+WindowManagerSettings|Maximize
+WindowManagerSettings|Maximize Horizontally
+WindowManagerSettings|Maximize Vertically
+WindowManagerSettings|Menu
+WindowManagerSettings|Middle click
+WindowManagerSettings|Minimize
+WindowManagerSettings|Mouse
+WindowManagerSettings|Raise on click
+WindowManagerSettings|Right click
+WindowManagerSettings|Sloppy
+WindowManagerSettings|Text quality
+WindowManagerSettings|Titlebar Actions
+WindowManagerSettings|Toggle Shade
+WindowManagerSettings|Vertical workspaces
+WindowManagerSettings|Workspace Settings
+WindowManagerSettings|Workspace switcher
+SettingsPage|Language Changed
+SettingsPage|The language change will take effect after restarting Stacer.

@@ -4,29 +4,29 @@
 <context>
     <name>APTSourceEdit</name>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="14"/>
-        <source>APT Repository Edit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="38"/>
         <source>APT Repository</source>
-        <translation type="unfinished"></translation>
+        <translation>Kho APT</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="48"/>
-        <source>Components</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="14"/>
+        <source>APT Repository Edit</source>
+        <translation>Chỉnh sửa kho APT</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="55"/>
-        <source>Options</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="177"/>
+        <source>Binary</source>
+        <translation>Nhị phân</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="71"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Hủy</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="48"/>
+        <source>Components</source>
+        <translation>Thành phần</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="87"/>
@@ -34,9 +34,9 @@
         <translation>Trường Nhập Không Được Bỏ Trống.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="94"/>
-        <source>URI</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="55"/>
+        <source>Options</source>
+        <translation>Tùy chọn</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="110"/>
@@ -44,42 +44,47 @@
         <translation>Lưu</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="133"/>
-        <source>Suites</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="152"/>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Nguồn</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="177"/>
-        <source>Binary</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="133"/>
+        <source>Suites</source>
+        <translation>Bộ</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_edit.ui" line="94"/>
+        <source>URI</source>
+        <translation>URI</translation>
     </message>
 </context>
 <context>
     <name>APTSourceManagerPage</name>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="188"/>
-        <source>Search...</source>
-        <translation>Tìm Kiếm...</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="226"/>
-        <source>Edit</source>
-        <translation>Sửa</translation>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="72"/>
+        <source>APT Repositories (%1)</source>
+        <translation>Kho APT (%1)</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="14"/>
         <source>APT Repository Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Quản lý kho APT</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="125"/>
-        <source>Not Found APT Repositories</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="338"/>
+        <source>Add Repository</source>
+        <translation>Thêm kho</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="84"/>
+        <source>Adding...</source>
+        <translation>Đang thêm...</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="371"/>
+        <source>Cancel</source>
+        <translation>Hủy</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="269"/>
@@ -87,36 +92,19 @@
         <translation>Xóa</translation>
     </message>
     <message>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="226"/>
+        <source>Edit</source>
+        <translation>Sửa</translation>
+    </message>
+    <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="308"/>
         <source>Enable Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Kích hoạt nguồn</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="338"/>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="104"/>
-        <source>Add Repository</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="371"/>
-        <source>Cancel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="419"/>
-        <source>Select to delete or edit.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="27"/>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="31"/>
-        <source>example %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="72"/>
-        <source>APT Repositories (%1)</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="125"/>
+        <source>Not Found APT Repositories</source>
+        <translation>Không tìm thấy kho APT</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="78"/>
@@ -124,9 +112,19 @@
         <translation>Lưu</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="84"/>
-        <source>Adding...</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="188"/>
+        <source>Search...</source>
+        <translation>Tìm Kiếm...</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.ui" line="419"/>
+        <source>Select to delete or edit.</source>
+        <translation>Chọn để xóa hoặc chỉnh sửa.</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/AptSourceManager/apt_source_manager_page.cpp" line="27"/>
+        <source>example %1</source>
+        <translation>ví dụ %1</translation>
     </message>
 </context>
 <context>
@@ -134,50 +132,45 @@
     <message>
         <location filename="../stacer/Pages/AptSourceManager/apt_source_repository_item.cpp" line="35"/>
         <source>%1 (Source Code)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (Mã nguồn)</translation>
     </message>
 </context>
 <context>
     <name>App</name>
+    <message>
+        <location filename="../stacer/app.ui" line="362"/>
+        <source>APT Repository Manager</source>
+        <translation>Quản lý kho APT</translation>
+    </message>
+    <message>
+        <location filename="../stacer/app.cpp" line="116"/>
+        <source>Continue</source>
+        <translation>Tiếp tục</translation>
+    </message>
     <message>
         <location filename="../stacer/app.ui" line="101"/>
         <source>Dashboard</source>
         <translation>Bảng Điều Khiển</translation>
     </message>
     <message>
-        <location filename="../stacer/app.ui" line="135"/>
-        <source>Startup Apps</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/app.cpp" line="119"/>
+        <source>Don't ask again.</source>
+        <translation>Không hỏi lại nữa.</translation>
     </message>
     <message>
-        <location filename="../stacer/app.ui" line="163"/>
-        <source>System Cleaner</source>
-        <translation>Làm Sạch Hệ Thống</translation>
+        <location filename="../stacer/app.ui" line="459"/>
+        <source>Feedback</source>
+        <translation>Phản hồi</translation>
     </message>
     <message>
-        <location filename="../stacer/app.ui" line="194"/>
-        <source>Search</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/app.ui" line="278"/>
-        <source>Uninstaller</source>
-        <translation>Gỡ Cài Đặt</translation>
-    </message>
-    <message>
-        <location filename="../stacer/app.ui" line="306"/>
-        <source>Resources</source>
-        <translation>Biểu Đồ Tài Nguyên</translation>
+        <location filename="../stacer/app.ui" line="390"/>
+        <source>Gnome Settings</source>
+        <translation>Cài đặt Gnome</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="334"/>
         <source>Helpers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/app.ui" line="362"/>
-        <source>APT Repository Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Công cụ hỗ trợ</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="250"/>
@@ -185,14 +178,24 @@
         <translation>Tiến Trình</translation>
     </message>
     <message>
-        <location filename="../stacer/app.ui" line="222"/>
-        <source>Services</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/app.cpp" line="114"/>
+        <source>Quit</source>
+        <translation>Thoát</translation>
     </message>
     <message>
-        <location filename="../stacer/app.ui" line="390"/>
-        <source>Gnome Settings</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/app.ui" line="306"/>
+        <source>Resources</source>
+        <translation>Biểu Đồ Tài Nguyên</translation>
+    </message>
+    <message>
+        <location filename="../stacer/app.ui" line="194"/>
+        <source>Search</source>
+        <translation>Tìm kiếm</translation>
+    </message>
+    <message>
+        <location filename="../stacer/app.ui" line="222"/>
+        <source>Services</source>
+        <translation>Dịch vụ</translation>
     </message>
     <message>
         <location filename="../stacer/app.ui" line="418"/>
@@ -200,152 +203,130 @@
         <translation>Cài Đặt</translation>
     </message>
     <message>
-        <location filename="../stacer/app.ui" line="459"/>
-        <source>Feedback</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/app.ui" line="135"/>
+        <source>Startup Apps</source>
+        <translation>Ứng dụng khởi động</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="114"/>
-        <location filename="../stacer/app.cpp" line="121"/>
-        <location filename="../stacer/app.cpp" line="179"/>
-        <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/app.ui" line="163"/>
+        <source>System Cleaner</source>
+        <translation>Làm Sạch Hệ Thống</translation>
     </message>
     <message>
-        <location filename="../stacer/app.cpp" line="116"/>
-        <source>Continue</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/app.cpp" line="119"/>
-        <source>Don&apos;t ask again.</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/app.ui" line="278"/>
+        <source>Uninstaller</source>
+        <translation>Gỡ Cài Đặt</translation>
     </message>
     <message>
         <location filename="../stacer/app.cpp" line="122"/>
         <source>Will the program continue to work in the system tray?</source>
-        <translation type="unfinished"></translation>
+        <translation>Chương trình có tiếp tục hoạt động trong khay hệ thống không?</translation>
     </message>
 </context>
 <context>
     <name>AppearanceSettings</name>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="44"/>
-        <source>Screen Applications</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="74"/>
-        <source>Screen Reader</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="100"/>
-        <source>Screen Keyboard</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="136"/>
         <source>Background Image Mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="166"/>
-        <source>Desktop Mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="204"/>
-        <source>Login Mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="252"/>
-        <source>Icons</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="282"/>
-        <source>Home Icon</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="308"/>
-        <source>Trash Icon</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="321"/>
-        <source>Mounted Volumes Icon</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="347"/>
-        <source>Show Desktop Icons</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="373"/>
-        <source>Network Icon</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.cpp" line="71"/>
-        <source>None</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.cpp" line="71"/>
-        <source>Wallpaper</source>
-        <translation type="unfinished"></translation>
+        <translation>Chế độ ảnh nền</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/appearance_settings.cpp" line="71"/>
         <source>Centered</source>
-        <translation type="unfinished"></translation>
+        <translation>Căn giữa</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="166"/>
+        <source>Desktop Mode</source>
+        <translation>Chế độ màn hình nền</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="282"/>
+        <source>Home Icon</source>
+        <translation>Biểu tượng thư mục chính</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="252"/>
+        <source>Icons</source>
+        <translation>Biểu tượng</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="204"/>
+        <source>Login Mode</source>
+        <translation>Chế độ đăng nhập</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="321"/>
+        <source>Mounted Volumes Icon</source>
+        <translation>Biểu tượng ổ đĩa đã gắn</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="373"/>
+        <source>Network Icon</source>
+        <translation>Biểu tượng mạng</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.cpp" line="71"/>
+        <source>None</source>
+        <translation>Không</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/appearance_settings.cpp" line="71"/>
         <source>Scaled</source>
-        <translation type="unfinished"></translation>
+        <translation>Co giãn theo tỷ lệ</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.cpp" line="71"/>
-        <source>Stretched</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="44"/>
+        <source>Screen Applications</source>
+        <translation>Ứng dụng màn hình</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.cpp" line="71"/>
-        <source>Zoom</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="100"/>
+        <source>Screen Keyboard</source>
+        <translation>Bàn phím màn hình</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="74"/>
+        <source>Screen Reader</source>
+        <translation>Trình đọc màn hình</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="347"/>
+        <source>Show Desktop Icons</source>
+        <translation>Hiển thị biểu tượng màn hình nền</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/appearance_settings.cpp" line="71"/>
         <source>Spanned</source>
-        <translation type="unfinished"></translation>
+        <translation>Trải rộng</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.cpp" line="71"/>
+        <source>Stretched</source>
+        <translation>Kéo giãn</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.ui" line="308"/>
+        <source>Trash Icon</source>
+        <translation>Biểu tượng thùng rác</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.cpp" line="71"/>
+        <source>Wallpaper</source>
+        <translation>Hình nền</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/appearance_settings.cpp" line="71"/>
+        <source>Zoom</source>
+        <translation>Thu phóng</translation>
     </message>
 </context>
 <context>
     <name>DashboardPage</name>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="20"/>
-        <source>Dashboard</source>
-        <translation>Bảng Điều Khiển</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="156"/>
-        <source>SYSTEM INFO</source>
-        <translation>Thông Tin Hệ Thống</translation>
-    </message>
-    <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="230"/>
         <source>A new update is now available.</source>
         <translation>Có Cập Nhật Mới</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="246"/>
-        <source>Download</source>
-        <translation>Tải Xuống</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="18"/>
@@ -353,9 +334,19 @@
         <translation>CPU</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="19"/>
-        <source>MEMORY</source>
-        <translation>RAM</translation>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="116"/>
+        <source>CPU Core: %1</source>
+        <translation>Nhân CPU:%1</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="115"/>
+        <source>CPU Model: %1</source>
+        <translation>Model Của CPU: %1</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="117"/>
+        <source>CPU Speed: %1</source>
+        <translation>Tốc Độ CPU: %1</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="20"/>
@@ -368,19 +359,9 @@
         <translation>Tải Xuống</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="22"/>
-        <source>UPLOAD</source>
-        <translation>Tải Lên</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="111"/>
-        <source>Hostname: %1</source>
-        <translation>Tên Máy: %1</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="112"/>
-        <source>Platform: %1</source>
-        <translation>Nền Tảng: %1</translation>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="20"/>
+        <source>Dashboard</source>
+        <translation>Bảng Điều Khiển</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="113"/>
@@ -388,124 +369,117 @@
         <translation>Phiên Bản: %1</translation>
     </message>
     <message>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="246"/>
+        <source>Download</source>
+        <translation>Tải Xuống</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="135"/>
+        <source>High CPU Usage</source>
+        <translation>Mức sử dụng CPU cao</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="208"/>
+        <source>High Disk Usage</source>
+        <translation>Mức sử dụng ổ đĩa cao</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="164"/>
+        <source>High Memory Usage</source>
+        <translation>Mức sử dụng bộ nhớ cao</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="111"/>
+        <source>Hostname: %1</source>
+        <translation>Tên Máy: %1</translation>
+    </message>
+    <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="114"/>
         <source>Kernel Release: %1</source>
         <translation>Phiên Bản Kernel: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="115"/>
-        <source>CPU Model: %1</source>
-        <translation>Model Của CPU: %1</translation>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="19"/>
+        <source>MEMORY</source>
+        <translation>RAM</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="116"/>
-        <source>CPU Core: %1</source>
-        <translation>Nhân CPU:%1</translation>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="112"/>
+        <source>Platform: %1</source>
+        <translation>Nền Tảng: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="117"/>
-        <source>CPU Speed: %1</source>
-        <translation>Tốc Độ CPU: %1</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="135"/>
-        <source>High CPU Usage</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.ui" line="156"/>
+        <source>SYSTEM INFO</source>
+        <translation>Thông Tin Hệ Thống</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="136"/>
         <source>The amount of CPU used is over %1%.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="164"/>
-        <source>High Memory Usage</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="165"/>
-        <source>The amount of memory used is over %1%.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="208"/>
-        <source>High Disk Usage</source>
-        <translation type="unfinished"></translation>
+        <translation>Lượng CPU đã sử dụng vượt quá %1%.</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="209"/>
         <source>The amount of disk used is over %1%.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lượng ổ đĩa đã sử dụng vượt quá %1%.</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="165"/>
+        <source>The amount of memory used is over %1%.</source>
+        <translation>Lượng bộ nhớ đã sử dụng vượt quá %1%.</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="247"/>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="251"/>
         <source>Total: %1</source>
         <translation>Tổng: %1</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="22"/>
+        <source>UPLOAD</source>
+        <translation>Tải Lên</translation>
     </message>
 </context>
 <context>
     <name>Feedback</name>
     <message>
-        <location filename="../stacer/feedback.ui" line="14"/>
-        <source>Feedback</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/feedback.ui" line="61"/>
-        <source>Name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/feedback.ui" line="68"/>
-        <source>Email Address</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/feedback.ui" line="97"/>
-        <source>Send</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/feedback.cpp" line="78"/>
+        <source>&lt;font color='#2ecc71'&gt;Your feedback has been successfully sent. Thanks!&lt;/font&gt;</source>
+        <translation>&lt;font color='#2ecc71'&gt;Phản hồi của bạn đã được gửi thành công. Cảm ơn!&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../stacer/feedback.ui" line="120"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Đóng</translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.ui" line="54"/>
-        <source>Message</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/feedback.ui" line="78"/>
-        <source>Send feedback</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/feedback.ui" line="68"/>
+        <source>Email Address</source>
+        <translation>Địa chỉ email</translation>
     </message>
     <message>
         <location filename="../stacer/feedback.cpp" line="46"/>
         <source>Email address is not valid !</source>
-        <translation type="unfinished"></translation>
+        <translation>Địa chỉ email không hợp lệ !</translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="51"/>
-        <source>Your message must be at least 5 characters !</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/feedback.ui" line="14"/>
+        <source>Feedback</source>
+        <translation>Phản hồi</translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="59"/>
-        <source>Sending...</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/feedback.cpp" line="93"/>
+        <source>Fields cannot be left blank !</source>
+        <translation>Các trường không được để trống !</translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="78"/>
-        <source>&lt;font color=&apos;#2ecc71&apos;&gt;Your feedback has been successfully sent. Thanks!&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/feedback.ui" line="54"/>
+        <source>Message</source>
+        <translation>Nội dung</translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="80"/>
-        <location filename="../stacer/feedback.cpp" line="85"/>
-        <source>Something went wrong, try again !</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/feedback.ui" line="61"/>
+        <source>Name</source>
+        <translation>Tên</translation>
     </message>
     <message>
         <location filename="../stacer/feedback.cpp" line="88"/>
@@ -513,32 +487,52 @@
         <translation>Lưu</translation>
     </message>
     <message>
-        <location filename="../stacer/feedback.cpp" line="93"/>
-        <source>Fields cannot be left blank !</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/feedback.ui" line="97"/>
+        <source>Send</source>
+        <translation>Gửi</translation>
+    </message>
+    <message>
+        <location filename="../stacer/feedback.ui" line="78"/>
+        <source>Send feedback</source>
+        <translation>Gửi phản hồi</translation>
+    </message>
+    <message>
+        <location filename="../stacer/feedback.cpp" line="59"/>
+        <source>Sending...</source>
+        <translation>Đang gửi...</translation>
+    </message>
+    <message>
+        <location filename="../stacer/feedback.cpp" line="80"/>
+        <source>Something went wrong, try again !</source>
+        <translation>Đã xảy ra lỗi, hãy thử lại !</translation>
+    </message>
+    <message>
+        <location filename="../stacer/feedback.cpp" line="51"/>
+        <source>Your message must be at least 5 characters !</source>
+        <translation>Nội dung của bạn phải có ít nhất 5 ký tự !</translation>
     </message>
 </context>
 <context>
     <name>GnomeSettingsPage</name>
     <message>
+        <location filename="../stacer/Pages/GnomeSettings/gnome_settings_page.ui" line="110"/>
+        <source>Appearance</source>
+        <translation>Giao diện</translation>
+    </message>
+    <message>
         <location filename="../stacer/Pages/GnomeSettings/gnome_settings_page.ui" line="14"/>
         <source>Gnome Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Cài đặt Gnome</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/gnome_settings_page.ui" line="49"/>
         <source>Unity Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Cài đặt Unity</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/gnome_settings_page.ui" line="81"/>
         <source>Window Manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/gnome_settings_page.ui" line="110"/>
-        <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Trình quản lý cửa sổ</translation>
     </message>
 </context>
 <context>
@@ -546,77 +540,25 @@
     <message>
         <location filename="../stacer/Pages/Helpers/helpers_page.ui" line="14"/>
         <source>Helpers</source>
-        <translation type="unfinished"></translation>
+        <translation>Công cụ hỗ trợ</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/helpers_page.ui" line="62"/>
         <source>Host Manage</source>
-        <translation type="unfinished"></translation>
+        <translation>Quản lý máy chủ</translation>
     </message>
 </context>
 <context>
     <name>HostManage</name>
     <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.ui" line="14"/>
-        <source>Form</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.ui" line="63"/>
-        <source>Save Changes</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.ui" line="110"/>
-        <source>New Host</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.ui" line="146"/>
-        <source>IP Address *</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.ui" line="153"/>
-        <source>Fully Qualified Name *</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../stacer/Pages/Helpers/host_manage.ui" line="160"/>
-        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="39"/>
         <source>Aliases</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.ui" line="176"/>
-        <source>Save</source>
-        <translation>Lưu</translation>
+        <translation>Bí danh</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.ui" line="192"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="26"/>
-        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="100"/>
-        <source>Hosts (%1)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="39"/>
-        <source>IP Address</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="39"/>
-        <source>Full Qualified</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="137"/>
-        <source>Edit</source>
-        <translation>Sửa</translation>
+        <translation>Hủy</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="141"/>
@@ -624,18 +566,67 @@
         <translation>Xóa</translation>
     </message>
     <message>
+        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="137"/>
+        <source>Edit</source>
+        <translation>Sửa</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Helpers/host_manage.ui" line="14"/>
+        <source>Form</source>
+        <translation>Quản lý máy chủ</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="39"/>
+        <source>Full Qualified</source>
+        <translation>Tên đầy đủ</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Helpers/host_manage.ui" line="153"/>
+        <source>Fully Qualified Name *</source>
+        <translation>Tên đầy đủ *</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="26"/>
+        <source>Hosts (%1)</source>
+        <translation>Máy chủ (%1)</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="39"/>
+        <source>IP Address</source>
+        <translation>Địa chỉ IP</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Helpers/host_manage.ui" line="146"/>
+        <source>IP Address *</source>
+        <translation>Địa chỉ IP *</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Helpers/host_manage.ui" line="110"/>
+        <source>New Host</source>
+        <translation>Máy chủ mới</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Helpers/host_manage.ui" line="176"/>
+        <source>Save</source>
+        <translation>Lưu</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Helpers/host_manage.ui" line="63"/>
+        <source>Save Changes</source>
+        <translation>Lưu thay đổi</translation>
+    </message>
+    <message>
         <location filename="../stacer/Pages/Helpers/host_manage.cpp" line="149"/>
         <source>The IP and Fully Qualified fields are required.</source>
-        <translation type="unfinished"></translation>
+        <translation>Các trường Địa chỉ IP và Tên đầy đủ là bắt buộc.</translation>
     </message>
 </context>
 <context>
     <name>ProcessesPage</name>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.ui" line="14"/>
-        <location filename="../stacer/Pages/Processes/processes_page.ui" line="55"/>
-        <source>Processes</source>
-        <translation>Tiến Trình</translation>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="29"/>
+        <source>%Memory</source>
+        <translation>% RAM</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.ui" line="71"/>
@@ -643,44 +634,14 @@
         <translation>Tất Cả Tiến Trình</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Processes/processes_page.ui" line="96"/>
-        <source>Search...</source>
-        <translation>Tìm Kiếm...</translation>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="31"/>
+        <source>CPU Time</source>
+        <translation>Thời Gian CPC</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.ui" line="217"/>
         <source>End Process</source>
         <translation>Kết Thúc Tiến Trình</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="30"/>
-        <source>User</source>
-        <translation>Người Dùng</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="29"/>
-        <source>Resident Memory</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="29"/>
-        <source>%Memory</source>
-        <translation>% RAM</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="29"/>
-        <source>Virtual Memory</source>
-        <translation>RAM Ảo</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="30"/>
-        <source>Start Time</source>
-        <translation>Thời Gian Bắt Đầu</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="30"/>
-        <source>State</source>
-        <translation>Khu Vực</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="30"/>
@@ -694,17 +655,12 @@
     </message>
     <message>
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="31"/>
-        <source>CPU Time</source>
-        <translation>Thời Gian CPC</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="31"/>
-        <source>Session</source>
-        <translation>Phiên Làm Việc</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="31"/>
         <source>Process</source>
+        <translation>Tiến Trình</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Processes/processes_page.ui" line="14"/>
+        <source>Processes</source>
         <translation>Tiến Trình</translation>
     </message>
     <message>
@@ -716,6 +672,41 @@
         <location filename="../stacer/Pages/Processes/processes_page.cpp" line="215"/>
         <source>Refresh (%1)</source>
         <translation>Làm Mới (%1)</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="29"/>
+        <source>Resident Memory</source>
+        <translation>Bộ nhớ thường trú</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Processes/processes_page.ui" line="96"/>
+        <source>Search...</source>
+        <translation>Tìm Kiếm...</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="31"/>
+        <source>Session</source>
+        <translation>Phiên Làm Việc</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="30"/>
+        <source>Start Time</source>
+        <translation>Thời Gian Bắt Đầu</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="30"/>
+        <source>State</source>
+        <translation>Khu Vực</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="30"/>
+        <source>User</source>
+        <translation>Người Dùng</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Processes/processes_page.cpp" line="29"/>
+        <source>Virtual Memory</source>
+        <translation>RAM Ảo</translation>
     </message>
 </context>
 <context>
@@ -729,233 +720,147 @@
 <context>
     <name>ResourcesPage</name>
     <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="14"/>
-        <source>History of CPU</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="15"/>
-        <source>History of CPU Load Averages</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="16"/>
-        <source>History of Disk Read Write</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="17"/>
-        <source>History of Memory</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="18"/>
-        <source>History of Network</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="107"/>
-        <source>File System</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="123"/>
-        <source>File System Type</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="260"/>
+        <source>%1 Minute Average: %2</source>
+        <translation>Trung bình %1 phút: %2</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="143"/>
         <source>Device</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="218"/>
-        <source>Read: %1/s Total: %2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="223"/>
-        <source>Write: %1/s Total: %2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="260"/>
-        <source>%1 Minute Average: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Thiết bị</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="308"/>
         <source>Download: %1/s Total: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Tải xuống: %1/s Tổng: %2</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="313"/>
-        <source>Upload: %1/s  Total: %2</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="107"/>
+        <source>File System</source>
+        <translation>Hệ thống tệp</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="357"/>
-        <source>Swap: %1 (%2%) %3</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="123"/>
+        <source>File System Type</source>
+        <translation>Loại hệ thống tệp</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="14"/>
+        <source>History of CPU</source>
+        <translation>Lịch sử CPU</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="15"/>
+        <source>History of CPU Load Averages</source>
+        <translation>Lịch sử tải trung bình của CPU</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="16"/>
+        <source>History of Disk Read Write</source>
+        <translation>Lịch sử đọc ghi ổ đĩa</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="17"/>
+        <source>History of Memory</source>
+        <translation>Lịch sử bộ nhớ</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="18"/>
+        <source>History of Network</source>
+        <translation>Lịch sử mạng</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.cpp" line="366"/>
         <source>Memory: %1 (%2%) %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Bộ nhớ: %1 (%2%) %3</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="218"/>
+        <source>Read: %1/s Total: %2</source>
+        <translation>Đọc: %1/s Tổng: %2</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Resources/resources_page.ui" line="14"/>
         <source>Resources</source>
         <translation>Biểu Đồ Tài Nguyên</translation>
     </message>
+    <message>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="357"/>
+        <source>Swap: %1 (%2%) %3</source>
+        <translation>Hoán đổi: %1 (%2%) %3</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="313"/>
+        <source>Upload: %1/s  Total: %2</source>
+        <translation>Tải lên: %1/s  Tổng: %2</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Resources/resources_page.cpp" line="223"/>
+        <source>Write: %1/s Total: %2</source>
+        <translation>Ghi: %1/s Tổng: %2</translation>
+    </message>
 </context>
 <context>
     <name>SearchPage</name>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="14"/>
-        <source>Search</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="101"/>
-        <source>Browse...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="113"/>
-        <source>Search...</source>
-        <translation>Tìm Kiếm...</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="211"/>
-        <source>Case Insensitive</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../stacer/Pages/Search/search_page.ui" line="298"/>
         <source> minute</source>
-        <translation type="unfinished"></translation>
+        <translation> phút</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="370"/>
-        <source>Search as Root</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="309"/>
+        <source>%1 files found. Showing %2 of them.</source>
+        <translation>Đã tìm thấy %1 tệp. Đang hiển thị %2 trong số đó.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="377"/>
-        <source>Owner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="406"/>
-        <source>RegEx</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="483"/>
-        <source>Permissions</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="490"/>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="27"/>
-        <source>Size</source>
-        <translation>Kích Cỡ</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="514"/>
-        <source>Readable</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="530"/>
-        <source>Writable</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="546"/>
-        <source>Executable</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="555"/>
-        <source>Time</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="584"/>
-        <source>Empty</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="591"/>
-        <source>File or Folder:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.ui" line="607"/>
-        <source>Invert</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="141"/>
+        <source>Access</source>
+        <translation>Truy cập</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.ui" line="650"/>
         <source>Advanced Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Tìm kiếm nâng cao</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="177"/>
+        <source>Advanced Search %1</source>
+        <translation>Tìm kiếm nâng cao %1</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="135"/>
+        <source>All</source>
+        <translation>Tất cả</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.ui" line="690"/>
         <source>BETA version</source>
-        <translation type="unfinished"></translation>
+        <translation>Phiên bản BETA</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="25"/>
-        <source>Name</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="101"/>
+        <source>Browse...</source>
+        <translation>Duyệt...</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="26"/>
-        <source>Path</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="211"/>
+        <source>Case Insensitive</source>
+        <translation>Không phân biệt chữ hoa/thường</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="28"/>
-        <source>User</source>
-        <translation>Người Dùng</translation>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="143"/>
+        <source>Change</source>
+        <translation>Thay đổi</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="29"/>
-        <source>Group</source>
-        <translation>Nhóm</translation>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="129"/>
+        <source>Choose</source>
+        <translation>Chọn</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="30"/>
         <source>Creation Time</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="31"/>
-        <source>Last Access</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="32"/>
-        <source>Last Modification</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="33"/>
-        <source>Last Change</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="88"/>
-        <source>Open Folder</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="92"/>
-        <source>Move Trash</source>
-        <translation type="unfinished"></translation>
+        <translation>Thời gian tạo</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="96"/>
@@ -963,113 +868,187 @@
         <translation>Xóa</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="129"/>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="132"/>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="140"/>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="149"/>
-        <source>Choose</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="135"/>
-        <source>All</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="136"/>
-        <source>File</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="137"/>
         <source>Directory</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="138"/>
-        <source>Symbolic Link</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="141"/>
-        <source>Access</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="142"/>
-        <source>Modify</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="143"/>
-        <source>Change</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="145"/>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="150"/>
-        <source>Smaller (&lt;)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="146"/>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="151"/>
-        <source>Equal (=)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="147"/>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="152"/>
-        <source>Greater (&gt;)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="162"/>
-        <source>Select Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Thư mục</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="168"/>
         <source>Directory: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Thư mục: %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="177"/>
-        <source>Advanced Search %1</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="584"/>
+        <source>Empty</source>
+        <translation>Trống</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="146"/>
+        <source>Equal (=)</source>
+        <translation>Bằng (=)</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="546"/>
+        <source>Executable</source>
+        <translation>Có thể thực thi</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="136"/>
+        <source>File</source>
+        <translation>Tệp</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="591"/>
+        <source>File or Folder:</source>
+        <translation>Tệp hoặc thư mục:</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="147"/>
+        <source>Greater (&gt;)</source>
+        <translation>Lớn hơn (&gt;)</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="29"/>
+        <source>Group</source>
+        <translation>Nhóm</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="607"/>
+        <source>Invert</source>
+        <translation>Đảo ngược</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="31"/>
+        <source>Last Access</source>
+        <translation>Truy cập lần cuối</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="33"/>
+        <source>Last Change</source>
+        <translation>Thay đổi lần cuối</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="32"/>
+        <source>Last Modification</source>
+        <translation>Sửa đổi lần cuối</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="142"/>
+        <source>Modify</source>
+        <translation>Sửa đổi</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="92"/>
+        <source>Move Trash</source>
+        <translation>Chuyển vào thùng rác</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="25"/>
+        <source>Name</source>
+        <translation>Tên</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="88"/>
+        <source>Open Folder</source>
+        <translation>Mở thư mục</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="377"/>
+        <source>Owner</source>
+        <translation>Chủ sở hữu</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="26"/>
+        <source>Path</source>
+        <translation>Đường dẫn</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="483"/>
+        <source>Permissions</source>
+        <translation>Quyền</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="514"/>
+        <source>Readable</source>
+        <translation>Có thể đọc</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="406"/>
+        <source>RegEx</source>
+        <translation>RegEx</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="14"/>
+        <source>Search</source>
+        <translation>Tìm kiếm</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="370"/>
+        <source>Search as Root</source>
+        <translation>Tìm kiếm với quyền root</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="113"/>
+        <source>Search...</source>
+        <translation>Tìm Kiếm...</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="162"/>
+        <source>Select Directory</source>
+        <translation>Chọn thư mục</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="195"/>
         <source>Select the search directory.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hãy chọn thư mục tìm kiếm.</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="490"/>
+        <source>Size</source>
+        <translation>Kích Cỡ</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="145"/>
+        <source>Smaller (&lt;)</source>
+        <translation>Nhỏ hơn (&lt;)</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Search/search_page.cpp" line="293"/>
         <source>Somethings went wrong, try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đã xảy ra lỗi, hãy thử lại.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Search/search_page.cpp" line="309"/>
-        <source>%1 files found. Showing %2 of them.</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="138"/>
+        <source>Symbolic Link</source>
+        <translation>Liên kết tượng trưng</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="555"/>
+        <source>Time</source>
+        <translation>Thời gian</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.cpp" line="28"/>
+        <source>User</source>
+        <translation>Người Dùng</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Search/search_page.ui" line="530"/>
+        <source>Writable</source>
+        <translation>Có thể ghi</translation>
     </message>
 </context>
 <context>
     <name>ServicesPage</name>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="14"/>
-        <source>Services</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Services/services_page.cpp" line="33"/>
+        <source>Disabled</source>
+        <translation>Đã tắt</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="161"/>
-        <source>Startup at boot ?</source>
-        <translation>Khởi Động Cùng Hệ Thống ?</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Services/services_page.ui" line="214"/>
-        <source>Running Now ?</source>
-        <translation>Đang Chạy ?</translation>
+        <location filename="../stacer/Pages/Services/services_page.cpp" line="33"/>
+        <source>Enabled</source>
+        <translation>Đã bật</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.ui" line="268"/>
@@ -1078,33 +1057,38 @@
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.cpp" line="32"/>
-        <source>Running Status</source>
-        <translation type="unfinished"></translation>
+        <source>Not Running</source>
+        <translation>Không chạy</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.cpp" line="32"/>
         <source>Running</source>
-        <translation type="unfinished"></translation>
+        <translation>Đang chạy</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="214"/>
+        <source>Running Now ?</source>
+        <translation>Đang Chạy ?</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.cpp" line="32"/>
-        <source>Not Running</source>
-        <translation type="unfinished"></translation>
+        <source>Running Status</source>
+        <translation>Trạng thái chạy</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="14"/>
+        <source>Services</source>
+        <translation>Dịch vụ</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.cpp" line="33"/>
         <source>Startup Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Trạng thái khởi động</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Services/services_page.cpp" line="33"/>
-        <source>Enabled</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Services/services_page.cpp" line="33"/>
-        <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Services/services_page.ui" line="161"/>
+        <source>Startup at boot ?</source>
+        <translation>Khởi Động Cùng Hệ Thống ?</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Services/services_page.cpp" line="80"/>
@@ -1115,74 +1099,29 @@
 <context>
     <name>SettingsPage</name>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="20"/>
-        <source>Settings</source>
-        <translation>Cài Đặt</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="97"/>
-        <source>Theme</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="110"/>
-        <source>Memory Percent</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="173"/>
-        <source>Disk Percent</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="334"/>
-        <source>Font Size Adjustment</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../stacer/Pages/Settings/settings_page.ui" line="365"/>
         <source>Adjust font size relative to default (0 = default)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="426"/>
-        <source>App Quit Don&apos;t Ask</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="486"/>
-        <source>Disks</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="202"/>
-        <source>Language</source>
-        <translation>Ngôn Ngữ</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="215"/>
-        <source>Autostart Stacer</source>
-        <translation type="unfinished"></translation>
+        <translation>Điều chỉnh cỡ chữ so với mặc định (0 = mặc định)</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.ui" line="273"/>
         <source>Alert messages (Show a warning after the specified percentage)</source>
-        <translation type="unfinished"></translation>
+        <translation>Thông báo cảnh báo (Hiển thị cảnh báo sau khi vượt qua tỷ lệ phần trăm đã chỉ định)</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="499"/>
-        <source>Start Page</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="426"/>
+        <source>App Quit Don't Ask</source>
+        <translation>Không hỏi khi thoát ứng dụng</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="215"/>
+        <source>Autostart Stacer</source>
+        <translation>Tự khởi động Stacer</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.ui" line="257"/>
         <source>CPU Percent</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Settings/settings_page.ui" line="311"/>
-        <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Tỷ lệ CPU</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
@@ -1190,37 +1129,48 @@
         <translation>Bảng Điều Khiển</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
-        <source>Startup Apps</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="173"/>
+        <source>Disk Percent</source>
+        <translation>Tỷ lệ ổ đĩa</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
-        <source>System Cleaner</source>
-        <translation>Làm Sạch Hệ Thống</translation>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="486"/>
+        <source>Disks</source>
+        <translation>Ổ đĩa</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
-        <source>Search</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="311"/>
+        <source>Donate</source>
+        <translation>Quyên góp</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="89"/>
-        <source>Services</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="334"/>
+        <source>Font Size Adjustment</source>
+        <translation>Điều chỉnh cỡ chữ</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="90"/>
+        <source>Helpers</source>
+        <translation>Công cụ hỗ trợ</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="202"/>
+        <source>Language</source>
+        <translation>Ngôn Ngữ</translation>
+    </message>
+    <message>
+        <source>Language Changed</source>
+        <translation>Đã thay đổi ngôn ngữ</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="110"/>
+        <source>Memory Percent</source>
+        <translation>Tỷ lệ bộ nhớ</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
         <source>Processes</source>
         <translation>Tiến Trình</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
-        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="91"/>
-        <source>Uninstaller</source>
-        <translation>Gỡ Cài Đặt</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
@@ -1228,45 +1178,74 @@
         <translation>Biểu Đồ Tài Nguyên</translation>
     </message>
     <message>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <source>Search</source>
+        <translation>Tìm kiếm</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <source>Services</source>
+        <translation>Dịch vụ</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="20"/>
+        <source>Settings</source>
+        <translation>Cài Đặt</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="499"/>
+        <source>Start Page</source>
+        <translation>Trang bắt đầu</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <source>Startup Apps</source>
+        <translation>Ứng dụng khởi động</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Settings/settings_page.cpp" line="84"/>
+        <source>System Cleaner</source>
+        <translation>Làm Sạch Hệ Thống</translation>
+    </message>
+    <message>
+        <source>The language change will take effect after restarting Stacer.</source>
+        <translation>Thay đổi ngôn ngữ sẽ có hiệu lực sau khi khởi động lại Stacer.</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Settings/settings_page.ui" line="97"/>
+        <source>Theme</source>
+        <translation>Chủ đề</translation>
+    </message>
+    <message>
         <location filename="../stacer/Pages/Settings/settings_page.cpp" line="85"/>
-        <source>Helpers</source>
-        <translation type="unfinished"></translation>
+        <source>Uninstaller</source>
+        <translation>Gỡ Cài Đặt</translation>
     </message>
 </context>
 <context>
     <name>StartupApp</name>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_app.ui" line="128"/>
-        <source>Edit App</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../stacer/Pages/StartupApps/startup_app.ui" line="150"/>
         <source>Delete App</source>
-        <translation type="unfinished"></translation>
+        <translation>Xóa ứng dụng</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/StartupApps/startup_app.ui" line="128"/>
+        <source>Edit App</source>
+        <translation>Chỉnh sửa ứng dụng</translation>
     </message>
 </context>
 <context>
     <name>StartupAppEdit</name>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="20"/>
-        <source>Startup App</source>
-        <translation>Ứng Dụng Khởi Động Cùng Hệ Thống</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="95"/>
-        <source>Save</source>
-        <translation>Lưu</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="44"/>
-        <source>Fields cannot be left blank.</source>
-        <translation>Trường Nhập Không Được Bỏ Trống.</translation>
-    </message>
-    <message>
         <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="65"/>
         <source>App Comment</source>
         <translation>Mô Tả Ứng Dụng</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="72"/>
+        <source>App Icon</source>
+        <translation>Biểu tượng ứng dụng</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="51"/>
@@ -1274,14 +1253,9 @@
         <translation>Tên Ứng Dụng</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="58"/>
-        <source>Generic Name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="72"/>
-        <source>App Icon</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="108"/>
+        <source>Application</source>
+        <translation>Ứng Dụng</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="79"/>
@@ -1289,55 +1263,65 @@
         <translation>Lệnh</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="108"/>
-        <source>Application</source>
-        <translation>Ứng Dụng</translation>
+        <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="44"/>
+        <source>Fields cannot be left blank.</source>
+        <translation>Trường Nhập Không Được Bỏ Trống.</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="58"/>
+        <source>Generic Name</source>
+        <translation>Tên chung</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="95"/>
+        <source>Save</source>
+        <translation>Lưu</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/StartupApps/startup_app_edit.ui" line="20"/>
+        <source>Startup App</source>
+        <translation>Ứng Dụng Khởi Động Cùng Hệ Thống</translation>
     </message>
 </context>
 <context>
     <name>StartupAppsPage</name>
-    <message>
-        <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="201"/>
-        <source>Not Found Startup Apps</source>
-        <translation>Không Tìm Thấy Ứng Dụng Khởi Động Cùng Hệ Thống</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="14"/>
-        <source>Startup Apps</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="101"/>
         <source>Add Startup App</source>
         <translation>Thêm Ứng Dụng</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="67"/>
-        <source>Startup Apps are disabled.</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="201"/>
+        <source>Not Found Startup Apps</source>
+        <translation>Không Tìm Thấy Ứng Dụng Khởi Động Cùng Hệ Thống</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="127"/>
         <source>Startup Applications (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ứng dụng khởi động (%1)</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/StartupApps/startup_apps_page.ui" line="14"/>
+        <source>Startup Apps</source>
+        <translation>Ứng dụng khởi động</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/StartupApps/startup_apps_page.cpp" line="67"/>
+        <source>Startup Apps are disabled.</source>
+        <translation>Ứng dụng khởi động đã bị vô hiệu hóa.</translation>
     </message>
 </context>
 <context>
     <name>SystemCleanerPage</name>
     <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="14"/>
-        <source>System Cleaner</source>
-        <translation>Làm Sạch Hệ Thống</translation>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="651"/>
+        <source> Back</source>
+        <translation> Quay Lại</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="66"/>
-        <source>Crash Reports</source>
-        <translation>Báo Cáo Lỗi</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="180"/>
-        <source>Application Logs</source>
-        <translation>Bản Ghi Ứng Dụng</translation>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="295"/>
+        <source>%1 size files cleaned.</source>
+        <translation>%1 Kích Cỡ Tập Tin Được Làm Sạch</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="218"/>
@@ -1345,9 +1329,24 @@
         <translation>Bộ Nhớ Tạm Ứng Dụng</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="366"/>
-        <source>Trash</source>
-        <translation>Thùng Rác</translation>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="180"/>
+        <source>Application Logs</source>
+        <translation>Bản Ghi Ứng Dụng</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="66"/>
+        <source>Crash Reports</source>
+        <translation>Báo Cáo Lỗi</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="35"/>
+        <source>File Name</source>
+        <translation>Tên Tập Tin</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="773"/>
+        <source>Name</source>
+        <translation>Tên</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="404"/>
@@ -1356,65 +1355,46 @@
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="493"/>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="638"/>
         <source>Select all</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="651"/>
-        <source> Back</source>
-        <translation> Quay Lại</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="759"/>
-        <source>Sort by: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="773"/>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="782"/>
-        <source>Name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="35"/>
-        <source>File Name</source>
-        <translation>Tên Tập Tin</translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="182"/>
-        <source>Total size: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn tất cả</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="791"/>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="800"/>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="35"/>
         <source>Size</source>
         <translation>Kích Cỡ</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="295"/>
-        <source>%1 size files cleaned.</source>
-        <translation>%1 Kích Cỡ Tập Tin Được Làm Sạch</translation>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="759"/>
+        <source>Sort by: </source>
+        <translation>Sắp xếp theo: </translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="14"/>
+        <source>System Cleaner</source>
+        <translation>Làm Sạch Hệ Thống</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.cpp" line="182"/>
+        <source>Total size: %1</source>
+        <translation>Tổng kích thước: %1</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/SystemCleaner/system_cleaner_page.ui" line="366"/>
+        <source>Trash</source>
+        <translation>Thùng Rác</translation>
     </message>
 </context>
 <context>
     <name>UninstallerPage</name>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="14"/>
-        <source>Uninstaller</source>
-        <translation>Gỡ Cài Đặt</translation>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="108"/>
+        <source>Not Found Installed Packages</source>
+        <translation>Không Tìm Thấy Gói</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="371"/>
-        <source>System Packages</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="393"/>
-        <source>Snap Packages</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/Uninstaller/uninstaller_page.cpp" line="102"/>
+        <source>Packages (%1)</source>
+        <translation>Gói phần mềm (%1)</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="442"/>
@@ -1422,10 +1402,19 @@
         <translation>Tìm Kiếm...</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="108"/>
-        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="231"/>
-        <source>Not Found Installed Packages</source>
-        <translation>Không Tìm Thấy Gói</translation>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="393"/>
+        <source>Snap Packages</source>
+        <translation>Gói Snap</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Uninstaller/uninstaller_page.cpp" line="107"/>
+        <source>Snap Packages (%1)</source>
+        <translation>Gói Snap (%1)</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="371"/>
+        <source>System Packages</source>
+        <translation>Gói hệ thống</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="340"/>
@@ -1433,353 +1422,345 @@
         <translation>Gỡ Bỏ Gói Đã Chọn</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstaller_page.cpp" line="102"/>
-        <source>Packages (%1)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/Uninstaller/uninstaller_page.cpp" line="107"/>
-        <source>Snap Packages (%1)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../stacer/Pages/Uninstaller/uninstaller_page.cpp" line="208"/>
-        <location filename="../stacer/Pages/Uninstaller/uninstaller_page.cpp" line="215"/>
         <source>Uninstall Selected (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Gỡ cài đặt mục đã chọn (%1)</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/Uninstaller/uninstallerpage.ui" line="14"/>
+        <source>Uninstaller</source>
+        <translation>Gỡ Cài Đặt</translation>
     </message>
 </context>
 <context>
     <name>UnitySettings</name>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="65"/>
-        <source>Applications</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="108"/>
-        <source>Show &quot;Recently Used&quot; applications</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="134"/>
-        <source>Enable search of your files</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="160"/>
-        <source>Show &quot;More Suggestions&quot;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="186"/>
-        <source>Search</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="196"/>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="683"/>
-        <source>General</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="229"/>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="660"/>
-        <source>Transparency Level</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="280"/>
-        <source>Behaviour</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="323"/>
-        <source>Auto Hide</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="339"/>
-        <source>Left Side</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="380"/>
-        <source>Minimize applications with clicking</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="396"/>
-        <source>Top-Left Corner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="412"/>
-        <source>Reveal Sensitivity</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="438"/>
-        <source>Reveal Location</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="464"/>
-        <source>Launcher</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="474"/>
-        <source>Appearance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="507"/>
-        <source>Left</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="526"/>
-        <source>Bottom</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="542"/>
-        <source>Visibility</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="558"/>
-        <source>Primary Desktop</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="612"/>
-        <source>Icon size</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="888"/>
+        <source>24-Hour Time</source>
+        <translation>Định dạng 24 giờ</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="628"/>
         <source>All Desktops</source>
-        <translation type="unfinished"></translation>
+        <translation>Tất cả màn hình</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="644"/>
-        <source>Position</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="474"/>
+        <source>Appearance</source>
+        <translation>Giao diện</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="726"/>
-        <source>Search online sources</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="65"/>
+        <source>Applications</source>
+        <translation>Ứng dụng</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="323"/>
+        <source>Auto Hide</source>
+        <translation>Tự động ẩn</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="752"/>
         <source>Background Blur</source>
-        <translation type="unfinished"></translation>
+        <translation>Làm mờ nền</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="778"/>
-        <source>Panel</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="280"/>
+        <source>Behaviour</source>
+        <translation>Hành vi</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="801"/>
-        <source>Indicators</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="840"/>
-        <source>Date</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="526"/>
+        <source>Bottom</source>
+        <translation>Đáy</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="862"/>
         <source>Calendar</source>
-        <translation type="unfinished"></translation>
+        <translation>Lịch</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="840"/>
+        <source>Date</source>
+        <translation>Ngày</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="875"/>
         <source>Date &amp; Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Ngày &amp; Giờ</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="888"/>
-        <source>24-Hour Time</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="134"/>
+        <source>Enable search of your files</source>
+        <translation>Bật tìm kiếm tệp của bạn</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="910"/>
-        <source>Weekday</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="196"/>
+        <source>General</source>
+        <translation>Chung</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="612"/>
+        <source>Icon size</source>
+        <translation>Kích thước biểu tượng</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="923"/>
         <source>Include</source>
-        <translation type="unfinished"></translation>
+        <translation>Bao gồm</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="801"/>
+        <source>Indicators</source>
+        <translation>Chỉ báo</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="464"/>
+        <source>Launcher</source>
+        <translation>Trình khởi chạy</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="507"/>
+        <source>Left</source>
+        <translation>Trái</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="339"/>
+        <source>Left Side</source>
+        <translation>Bên trái</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="380"/>
+        <source>Minimize applications with clicking</source>
+        <translation>Thu nhỏ ứng dụng khi nhấp chuột</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="778"/>
+        <source>Panel</source>
+        <translation>Bảng điều khiển</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="644"/>
+        <source>Position</source>
+        <translation>Vị trí</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="558"/>
+        <source>Primary Desktop</source>
+        <translation>Màn hình chính</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="438"/>
+        <source>Reveal Location</source>
+        <translation>Vùng hiển thị</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="412"/>
+        <source>Reveal Sensitivity</source>
+        <translation>Độ nhạy hiển thị</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="186"/>
+        <source>Search</source>
+        <translation>Tìm kiếm</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="726"/>
+        <source>Search online sources</source>
+        <translation>Tìm kiếm nguồn trực tuyến</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="945"/>
         <source>Seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Giây</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="958"/>
-        <source>Volume</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="160"/>
+        <source>Show "More Suggestions"</source>
+        <translation>Hiển thị "Gợi ý thêm"</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="108"/>
+        <source>Show "Recently Used" applications</source>
+        <translation>Hiển thị các ứng dụng "Đã dùng gần đây"</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="971"/>
         <source>Show my name</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiển thị tên của tôi</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="396"/>
+        <source>Top-Left Corner</source>
+        <translation>Góc trên bên trái</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="229"/>
+        <source>Transparency Level</source>
+        <translation>Mức trong suốt</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="542"/>
+        <source>Visibility</source>
+        <translation>Hiển thị</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="958"/>
+        <source>Volume</source>
+        <translation>Ổ đĩa</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/unity_settings.ui" line="910"/>
+        <source>Weekday</source>
+        <translation>Ngày trong tuần</translation>
     </message>
 </context>
 <context>
     <name>WindowManagerSettings</name>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="90"/>
-        <source>General</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="100"/>
-        <source>Titlebar Actions</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="155"/>
-        <source>Right click</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="168"/>
-        <source>Double click</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="181"/>
-        <source>Middle click</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="257"/>
         <source>Additional</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="267"/>
-        <source>Workspace Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="310"/>
-        <source>Vertical workspaces</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="333"/>
-        <source>Workspace switcher</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="356"/>
-        <source>Horizontal workspaces</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="379"/>
-        <source>Focus Behaviour</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="409"/>
-        <source>Focus mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="460"/>
-        <source>Raise on click</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="483"/>
-        <source>Hardware Acceleration</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="538"/>
-        <source>Text quality</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="64"/>
-        <source>Fast</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="64"/>
-        <source>Good</source>
-        <translation type="unfinished"></translation>
+        <translation>Bổ sung</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="64"/>
         <source>Best</source>
-        <translation type="unfinished"></translation>
+        <translation>Tốt nhất</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="66"/>
         <source>Click</source>
-        <translation type="unfinished"></translation>
+        <translation>Nhấp chuột</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="66"/>
-        <source>Sloppy</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="168"/>
+        <source>Double click</source>
+        <translation>Nhấp đúp</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="66"/>
-        <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="64"/>
+        <source>Fast</source>
+        <translation>Nhanh</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
-        <source>Toggle Shade</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="379"/>
+        <source>Focus Behaviour</source>
+        <translation>Hành vi lấy tiêu điểm</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
-        <source>Maximize</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="409"/>
+        <source>Focus mode</source>
+        <translation>Chế độ tiêu điểm</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
-        <source>Maximize Horizontally</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="90"/>
+        <source>General</source>
+        <translation>Chung</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
-        <source>Maximize Vertically</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="64"/>
+        <source>Good</source>
+        <translation>Tốt</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
-        <source>Minimize</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="483"/>
+        <source>Hardware Acceleration</source>
+        <translation>Tăng tốc phần cứng</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
-        <source>None</source>
-        <translation type="unfinished"></translation>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="356"/>
+        <source>Horizontal workspaces</source>
+        <translation>Không gian làm việc ngang</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
         <source>Lower</source>
-        <translation type="unfinished"></translation>
+        <translation>Hạ xuống</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
+        <source>Maximize</source>
+        <translation>Phóng to</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
+        <source>Maximize Horizontally</source>
+        <translation>Phóng to theo chiều ngang</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
+        <source>Maximize Vertically</source>
+        <translation>Phóng to theo chiều dọc</translation>
     </message>
     <message>
         <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
         <source>Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Trình đơn</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="181"/>
+        <source>Middle click</source>
+        <translation>Nhấp chuột giữa</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
+        <source>Minimize</source>
+        <translation>Thu nhỏ</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="66"/>
+        <source>Mouse</source>
+        <translation>Chuột</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
+        <source>None</source>
+        <translation>Không</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="460"/>
+        <source>Raise on click</source>
+        <translation>Nâng lên khi nhấp chuột</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="155"/>
+        <source>Right click</source>
+        <translation>Nhấp chuột phải</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="66"/>
+        <source>Sloppy</source>
+        <translation>Bám chuột</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="538"/>
+        <source>Text quality</source>
+        <translation>Chất lượng văn bản</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="100"/>
+        <source>Titlebar Actions</source>
+        <translation>Thao tác thanh tiêu đề</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.cpp" line="78"/>
+        <source>Toggle Shade</source>
+        <translation>Chuyển đổi thu gọn</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="310"/>
+        <source>Vertical workspaces</source>
+        <translation>Không gian làm việc dọc</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="267"/>
+        <source>Workspace Settings</source>
+        <translation>Cài đặt không gian làm việc</translation>
+    </message>
+    <message>
+        <location filename="../stacer/Pages/GnomeSettings/window_manager_settings.ui" line="333"/>
+        <source>Workspace switcher</source>
+        <translation>Bộ chuyển đổi không gian làm việc</translation>
     </message>
 </context>
 </TS>

@@ -1,0 +1,29 @@
+APTSourceEdit|Suites
+APTSourceManagerPage|Adding...
+App|Continue
+App|Don't ask again.
+App|Will the program continue to work in the system tray?
+Feedback|Close
+HostManage|Form
+ResourcesPage|Device
+ResourcesPage|File System
+ResourcesPage|File System Type
+SearchPage| minute
+SearchPage|Equal (=)
+SearchPage|Greater (>)
+SearchPage|Smaller (<)
+SettingsPage|Adjust font size relative to default (0 = default)
+SettingsPage|Font Size Adjustment
+SettingsPage|Theme
+StartupAppEdit|App Icon
+StartupAppEdit|Generic Name
+StartupAppsPage|Startup Apps are disabled.
+SystemCleanerPage|Sort by: 
+SystemCleanerPage|Total size: %1
+UninstallerPage|Packages (%1)
+UninstallerPage|Snap Packages
+UninstallerPage|Snap Packages (%1)
+UninstallerPage|System Packages
+UninstallerPage|Uninstall Selected (%1)
+SettingsPage|Language Changed
+SettingsPage|The language change will take effect after restarting Stacer.

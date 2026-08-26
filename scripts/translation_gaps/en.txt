@@ -1,0 +1,339 @@
+APTSourceEdit|APT Repository
+APTSourceEdit|APT Repository Edit
+APTSourceEdit|Binary
+APTSourceEdit|Cancel
+APTSourceEdit|Components
+APTSourceEdit|Fields cannot be left blank.
+APTSourceEdit|Options
+APTSourceEdit|Save
+APTSourceEdit|Source
+APTSourceEdit|Suites
+APTSourceEdit|URI
+APTSourceManagerPage|APT Repositories (%1)
+APTSourceManagerPage|APT Repository Manager
+APTSourceManagerPage|Add Repository
+APTSourceManagerPage|Adding...
+APTSourceManagerPage|Cancel
+APTSourceManagerPage|Delete
+APTSourceManagerPage|Edit
+APTSourceManagerPage|Enable Source
+APTSourceManagerPage|Not Found APT Repositories
+APTSourceManagerPage|Save
+APTSourceManagerPage|Search...
+APTSourceManagerPage|Select to delete or edit.
+APTSourceManagerPage|example %1
+APTSourceRepositoryItem|%1 (Source Code)
+App|APT Repository Manager
+App|Continue
+App|Dashboard
+App|Don't ask again.
+App|Feedback
+App|Gnome Settings
+App|Helpers
+App|Processes
+App|Quit
+App|Resources
+App|Search
+App|Services
+App|Settings
+App|Startup Apps
+App|System Cleaner
+App|Uninstaller
+App|Will the program continue to work in the system tray?
+AppearanceSettings|Background Image Mode
+AppearanceSettings|Centered
+AppearanceSettings|Desktop Mode
+AppearanceSettings|Home Icon
+AppearanceSettings|Icons
+AppearanceSettings|Login Mode
+AppearanceSettings|Mounted Volumes Icon
+AppearanceSettings|Network Icon
+AppearanceSettings|None
+AppearanceSettings|Scaled
+AppearanceSettings|Screen Applications
+AppearanceSettings|Screen Keyboard
+AppearanceSettings|Screen Reader
+AppearanceSettings|Show Desktop Icons
+AppearanceSettings|Spanned
+AppearanceSettings|Stretched
+AppearanceSettings|Trash Icon
+AppearanceSettings|Wallpaper
+AppearanceSettings|Zoom
+DashboardPage|A new update is now available.
+DashboardPage|CPU
+DashboardPage|CPU Core: %1
+DashboardPage|CPU Model: %1
+DashboardPage|CPU Speed: %1
+DashboardPage|DISK
+DashboardPage|DOWNLOAD
+DashboardPage|Dashboard
+DashboardPage|Distribution: %1
+DashboardPage|Download
+DashboardPage|High CPU Usage
+DashboardPage|High Disk Usage
+DashboardPage|High Memory Usage
+DashboardPage|Hostname: %1
+DashboardPage|Kernel Release: %1
+DashboardPage|MEMORY
+DashboardPage|Platform: %1
+DashboardPage|SYSTEM INFO
+DashboardPage|The amount of CPU used is over %1%.
+DashboardPage|The amount of disk used is over %1%.
+DashboardPage|The amount of memory used is over %1%.
+DashboardPage|Total: %1
+DashboardPage|UPLOAD
+Feedback|<font color='#2ecc71'>Your feedback has been successfully sent. Thanks!</font>
+Feedback|Close
+Feedback|Email Address
+Feedback|Email address is not valid !
+Feedback|Feedback
+Feedback|Fields cannot be left blank !
+Feedback|Message
+Feedback|Name
+Feedback|Save
+Feedback|Send
+Feedback|Send feedback
+Feedback|Sending...
+Feedback|Something went wrong, try again !
+Feedback|Your message must be at least 5 characters !
+GnomeSettingsPage|Appearance
+GnomeSettingsPage|Gnome Settings
+GnomeSettingsPage|Unity Settings
+GnomeSettingsPage|Window Manager
+HelpersPage|Helpers
+HelpersPage|Host Manage
+HostManage|Aliases
+HostManage|Cancel
+HostManage|Delete
+HostManage|Edit
+HostManage|Form
+HostManage|Full Qualified
+HostManage|Fully Qualified Name *
+HostManage|Hosts (%1)
+HostManage|IP Address
+HostManage|IP Address *
+HostManage|New Host
+HostManage|Save
+HostManage|Save Changes
+HostManage|The IP and Fully Qualified fields are required.
+ProcessesPage|%Memory
+ProcessesPage|All Processes
+ProcessesPage|CPU Time
+ProcessesPage|End Process
+ProcessesPage|Group
+ProcessesPage|Nice
+ProcessesPage|Process
+ProcessesPage|Processes
+ProcessesPage|Processes (%1)
+ProcessesPage|Refresh (%1)
+ProcessesPage|Resident Memory
+ProcessesPage|Search...
+ProcessesPage|Session
+ProcessesPage|Start Time
+ProcessesPage|State
+ProcessesPage|User
+ProcessesPage|Virtual Memory
+QObject|Dashboard
+ResourcesPage|%1 Minute Average: %2
+ResourcesPage|Device
+ResourcesPage|Download: %1/s Total: %2
+ResourcesPage|File System
+ResourcesPage|File System Type
+ResourcesPage|History of CPU
+ResourcesPage|History of CPU Load Averages
+ResourcesPage|History of Disk Read Write
+ResourcesPage|History of Memory
+ResourcesPage|History of Network
+ResourcesPage|Memory: %1 (%2%) %3
+ResourcesPage|Read: %1/s Total: %2
+ResourcesPage|Resources
+ResourcesPage|Swap: %1 (%2%) %3
+ResourcesPage|Upload: %1/s  Total: %2
+ResourcesPage|Write: %1/s Total: %2
+SearchPage| minute
+SearchPage|%1 files found. Showing %2 of them.
+SearchPage|Access
+SearchPage|Advanced Search
+SearchPage|Advanced Search %1
+SearchPage|All
+SearchPage|BETA version
+SearchPage|Browse...
+SearchPage|Case Insensitive
+SearchPage|Change
+SearchPage|Choose
+SearchPage|Creation Time
+SearchPage|Delete
+SearchPage|Directory
+SearchPage|Directory: %1
+SearchPage|Empty
+SearchPage|Equal (=)
+SearchPage|Executable
+SearchPage|File
+SearchPage|File or Folder:
+SearchPage|Greater (>)
+SearchPage|Group
+SearchPage|Invert
+SearchPage|Last Access
+SearchPage|Last Change
+SearchPage|Last Modification
+SearchPage|Modify
+SearchPage|Move Trash
+SearchPage|Name
+SearchPage|Open Folder
+SearchPage|Owner
+SearchPage|Path
+SearchPage|Permissions
+SearchPage|Readable
+SearchPage|RegEx
+SearchPage|Search
+SearchPage|Search as Root
+SearchPage|Search...
+SearchPage|Select Directory
+SearchPage|Select the search directory.
+SearchPage|Size
+SearchPage|Smaller (<)
+SearchPage|Somethings went wrong, try again.
+SearchPage|Symbolic Link
+SearchPage|Time
+SearchPage|User
+SearchPage|Writable
+ServicesPage|Disabled
+ServicesPage|Enabled
+ServicesPage|Not Found System Service
+ServicesPage|Not Running
+ServicesPage|Running
+ServicesPage|Running Now ?
+ServicesPage|Running Status
+ServicesPage|Services
+ServicesPage|Startup Status
+ServicesPage|Startup at boot ?
+ServicesPage|System Services (%1)
+SettingsPage|Adjust font size relative to default (0 = default)
+SettingsPage|Alert messages (Show a warning after the specified percentage)
+SettingsPage|App Quit Don't Ask
+SettingsPage|Autostart Stacer
+SettingsPage|CPU Percent
+SettingsPage|Dashboard
+SettingsPage|Disk Percent
+SettingsPage|Disks
+SettingsPage|Donate
+SettingsPage|Font Size Adjustment
+SettingsPage|Helpers
+SettingsPage|Language
+SettingsPage|Memory Percent
+SettingsPage|Processes
+SettingsPage|Resources
+SettingsPage|Search
+SettingsPage|Services
+SettingsPage|Settings
+SettingsPage|Start Page
+SettingsPage|Startup Apps
+SettingsPage|System Cleaner
+SettingsPage|Theme
+SettingsPage|Uninstaller
+StartupApp|Delete App
+StartupApp|Edit App
+StartupAppEdit|App Comment
+StartupAppEdit|App Icon
+StartupAppEdit|App Name
+StartupAppEdit|Application
+StartupAppEdit|Command
+StartupAppEdit|Fields cannot be left blank.
+StartupAppEdit|Generic Name
+StartupAppEdit|Save
+StartupAppEdit|Startup App
+StartupAppsPage|Add Startup App
+StartupAppsPage|Not Found Startup Apps
+StartupAppsPage|Startup Applications (%1)
+StartupAppsPage|Startup Apps
+StartupAppsPage|Startup Apps are disabled.
+SystemCleanerPage| Back
+SystemCleanerPage|%1 size files cleaned.
+SystemCleanerPage|Application Caches
+SystemCleanerPage|Application Logs
+SystemCleanerPage|Crash Reports
+SystemCleanerPage|File Name
+SystemCleanerPage|Name
+SystemCleanerPage|Package Caches
+SystemCleanerPage|Select all
+SystemCleanerPage|Size
+SystemCleanerPage|Sort by: 
+SystemCleanerPage|System Cleaner
+SystemCleanerPage|Total size: %1
+SystemCleanerPage|Trash
+UninstallerPage|Not Found Installed Packages
+UninstallerPage|Packages (%1)
+UninstallerPage|Search...
+UninstallerPage|Snap Packages
+UninstallerPage|Snap Packages (%1)
+UninstallerPage|System Packages
+UninstallerPage|Uninstall Selected
+UninstallerPage|Uninstall Selected (%1)
+UninstallerPage|Uninstaller
+UnitySettings|24-Hour Time
+UnitySettings|All Desktops
+UnitySettings|Appearance
+UnitySettings|Applications
+UnitySettings|Auto Hide
+UnitySettings|Background Blur
+UnitySettings|Behaviour
+UnitySettings|Bottom
+UnitySettings|Calendar
+UnitySettings|Date
+UnitySettings|Date & Time
+UnitySettings|Enable search of your files
+UnitySettings|General
+UnitySettings|Icon size
+UnitySettings|Include
+UnitySettings|Indicators
+UnitySettings|Launcher
+UnitySettings|Left
+UnitySettings|Left Side
+UnitySettings|Minimize applications with clicking
+UnitySettings|Panel
+UnitySettings|Position
+UnitySettings|Primary Desktop
+UnitySettings|Reveal Location
+UnitySettings|Reveal Sensitivity
+UnitySettings|Search
+UnitySettings|Search online sources
+UnitySettings|Seconds
+UnitySettings|Show "More Suggestions"
+UnitySettings|Show "Recently Used" applications
+UnitySettings|Show my name
+UnitySettings|Top-Left Corner
+UnitySettings|Transparency Level
+UnitySettings|Visibility
+UnitySettings|Volume
+UnitySettings|Weekday
+WindowManagerSettings|Additional
+WindowManagerSettings|Best
+WindowManagerSettings|Click
+WindowManagerSettings|Double click
+WindowManagerSettings|Fast
+WindowManagerSettings|Focus Behaviour
+WindowManagerSettings|Focus mode
+WindowManagerSettings|General
+WindowManagerSettings|Good
+WindowManagerSettings|Hardware Acceleration
+WindowManagerSettings|Horizontal workspaces
+WindowManagerSettings|Lower
+WindowManagerSettings|Maximize
+WindowManagerSettings|Maximize Horizontally
+WindowManagerSettings|Maximize Vertically
+WindowManagerSettings|Menu
+WindowManagerSettings|Middle click
+WindowManagerSettings|Minimize
+WindowManagerSettings|Mouse
+WindowManagerSettings|None
+WindowManagerSettings|Raise on click
+WindowManagerSettings|Right click
+WindowManagerSettings|Sloppy
+WindowManagerSettings|Text quality
+WindowManagerSettings|Titlebar Actions
+WindowManagerSettings|Toggle Shade
+WindowManagerSettings|Vertical workspaces
+WindowManagerSettings|Workspace Settings
+WindowManagerSettings|Workspace switcher
+SettingsPage|Language Changed
+SettingsPage|The language change will take effect after restarting Stacer.
