@@ -66,7 +66,8 @@ cd ../..
 # rpm package
 mkdir -p rpm/SOURCES
 cp release/$DIR.tar.gz rpm/SOURCES
-# Change architecture
+# Change architecture and version
 sed -i "s/^BuildArch:\s\+.*$/BuildArch:      $ARCH/g" rpm/SPECS/stacer.spec
+sed -i "s/^Version:\s\+.*$/Version:      $VERSION/g" rpm/SPECS/stacer.spec
 rpmbuild -bb --build-in-place --define "_topdir $(pwd)/rpm" rpm/SPECS/stacer.spec
 mv rpm/RPMS/$ARCH/stacer-$VERSION-1.$ARCH.rpm release/stacer-$VERSION.$ARCH.rpm
