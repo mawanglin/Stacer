@@ -4,6 +4,7 @@
 #include "utilities.h"
 
 #include <QDesktopServices>
+#include <QMessageBox>
 #include <QRegularExpression>
 #include <QUrl>
 
@@ -124,6 +125,11 @@ void SettingsPage::cmbLanguagesChanged(const int &index)
     QString langCode = ui->cmbLanguages->itemData(index).toString();
 
     mSettingManager->setLanguage(langCode);
+
+    // Retranslation in place is not implemented; tell the user a restart
+    // is needed so the new language is applied.
+    QMessageBox::information(this, tr("Language Changed"),
+                             tr("The language change will take effect after restarting Stacer."));
 }
 
 void SettingsPage::cmbThemesChanged(const int &index)
